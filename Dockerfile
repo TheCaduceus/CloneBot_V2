@@ -26,6 +26,5 @@ RUN pip3 install --no-cache-dir -r requirements.txt && \
 COPY . .
 
 RUN chmod +x run.sh
-RUN chmod +x gclone
 
 CMD ["bash","run.sh"]
