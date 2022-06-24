@@ -10,20 +10,19 @@ RUN echo "$TZ" > /etc/timezone
 RUN apt-get update
 RUN apt-get install -y tzdata
 RUN apt-get -qq update
+RUN apt install unzip -y
 RUN apt-get -qq install -y git python3 python3-pip \
     locales python3-lxml aria2 \
     curl pv jq nginx npm
 
-# Directly download unzipped Gclone
+# gclone v1.58.1-mango
+RUN aria2c https://github.com/l3v11/gclone/releases/download/v1.58.1-mango/gclone-v1.58.1-mango-linux-amd64.zip && \
+    unzip gclone-v1.58.1-mango-linux-amd64.zip && mv gclone-v1.58.1-mango-linux-amd64/gclone /usr/bin/ && \
+    chmod +x /usr/bin/gclone && rm -r gclone-v1.58.1-mango-linux-amd64
 
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt && \
     apt-get -qq purge git
- 
-RUN locale-gen en_US.UTF-8
-ENV LANG en_US.UTF-8
-ENV LANGUAGE en_US:en
-ENV LC_ALL en_US.UTF-8
 
 COPY . .
 
