@@ -22,7 +22,7 @@ RUN aria2c https://github.com/l3v11/gclone/releases/download/v1.58.1-mango/gclon
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt && \
     apt-get -qq purge git
-@@ -26,6 +31,5 @@ ENV LC_ALL en_US.UTF-8
+
 COPY . .
 
 RUN chmod +x run.sh
