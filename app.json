@@ -1,24 +1,14 @@
 {
-	"name": "CloneBot",
-	"description": "CloneBot",
-	"repository": "https://github.com/aishik2005/CloneBot",
-	"keywords": ["Gclone","TG"],
-	"repository": "https://github.com/aishik2005/CloneBot",
+	"name": "CloneBot_V2",
+	"description": "Powerful Telegram Bot to clone your data in Google Drive",
+	"repository": "https://github.com/TheCaduceus/CloneBot_V2",
+	"keywords": ["Rclone","Telegram","Gclone"],
+	"repository": "https://github.com/TheCaduceus/CloneBot_V2",
         "website": "https://t.me/msgsuitechat",
-        "success_url": "https://github.com/aishik2005/CloneBot/blob/master/README.md",
+        "success_url": "https://github.com/TheCaduceus/CloneBot_V2/blob/master/README.md",
 	"env": {
-		"telegram_token": {
-			"description": "Get from Telegram @Botfather."
-		},
-		"user_ids": {
-			"description": "Your user id. (If you want to add more than 1 User, give IDs seperated by ',').The First user is the Admin"
-		},
-		"group_ids": {
-			"description": "Create a Super Group(s) and add ID Here. Add -1 if you don't want to add a group.(If More than 1 group Give IDs seperated by ',')"
-		},
-		"gclone_para_override": {
-			"description": "Leave this if you don't know how to use it",
-			"required": false
+		"CONFIG_FILE_URL": {
+			"description": "Please Enter your Config.ini file Raw URL"
 		}
 	},
     	"stack": "container"
