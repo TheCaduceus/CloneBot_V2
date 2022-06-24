@@ -25,7 +25,7 @@ ENV LC_ALL en_US.UTF-8
 
 COPY . .
 
-RUN chmod +x start.sh
+RUN chmod +x run.sh
 RUN chmod +x gclone
 
-CMD ["bash","start.sh"]
+CMD ["bash","run.sh"]
