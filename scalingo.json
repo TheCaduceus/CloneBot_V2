@@ -5,7 +5,7 @@
 	"logo": "https://avatars.githubusercontent.com/u/87380104?v=4"
 	"repository": "https://github.com/TheCaduceus/CloneBot_V2",
 	"ref": "Scalingo"
-	"website": "https://caduceus.ml"
+	"website": "https://caduceus.ml/"
 	"env": {
 		"CONFIG_FILE_URL": {
 			"description": "Please Enter your Config.ini file Raw URL"
