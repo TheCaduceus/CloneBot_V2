@@ -1,4 +1,4 @@
-name: Deploy Clone Bot to Heroku via Github Workflows (EU Region)
+name: Deploy to Heroku
 
 on: workflow_dispatch
 
@@ -15,8 +15,6 @@ jobs:
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
-          region: "eu"
+          region: "us"
         env:
-          HD_telegram_token: ${{secrets.telegram_token}}
-          HD_user_ids: ${{secrets.user_ids}}
-          HD_group_ids: ${{secrets.group_ids}}
+          HD_telegram_token: ${{secrets.CONFIG_FILE_URL}}
