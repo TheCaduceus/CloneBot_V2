@@ -10,11 +10,11 @@
 		"CONFIG_FILE_URL": {
 			"description": "Please Enter your Config.ini file Raw URL"
 			"value": ""
-		},
+	       },
 		"GET_GCLONE_URL": {
 			"description": "Provide Gclone Download Link/URL"
 		         "value": "https://www.google.com"
-		}
+	       }
 	},
     	"stack": "container"
 }
