@@ -5,10 +5,9 @@ services:
     image: kerensekali/clonebot:latest
     container_name: clonebot
     environment:
-      - telegram_token=${telegram_token}
-      - user_ids=${user_ids}
-      - group_ids=${group_ids}
-      - PORT=${PORT}
+      - telegram_token=${BOT_TOKEN}
+      - user_ids=${ALLOW_USERS}
+      - group_ids=${ALLOW_GROUPS}
     ports:
-      - ${PORT}:${PORT}
+      - 8080:8080
     restart: unless-stopped
