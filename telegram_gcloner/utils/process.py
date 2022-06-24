@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 def leave_chat_from_message(message, context):
     context.bot.send_message(chat_id=message.chat_id,
-                             text='Hey, Thank you for adding ⚡️ MsgSuite CloneBot ⚡️ to this group. ' + config.AS_STRING.format(context.bot.username),
+                             text='Hey, Thank you for adding CloneBot V2 to this group. ' + config.AS_STRING.format(context.bot.username),
                              parse_mode=ParseMode.HTML)
     context.bot.send_message(chat_id=message.chat_id, text='\n\nUnfortunately I am not authorized in this Group/Chat 😔 \n So I am leavng this Group \nIf you want me in this Group/Chat, ask my owner to authorize me here 😉.')
     if message.from_user:
