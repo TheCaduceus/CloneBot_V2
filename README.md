@@ -95,7 +95,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>6.First copy your app's ENDPOINT as shown in the image and go to <a href="https://cron-job.org/en" alt="Cron-Job">Cron-Job.org</a> and sign up!</b></h4>
 <img src="Img/41.png" alt="41">
 <img src="Img/42.png" alt="42">
-<h4><b>Done? Nice! now click "CREATE CRONJOB" button and provide your copied ENDPOINT URL that you just copied and change execution schedule to every 5 minutes.Finally! click "CREATE" and you done it! 😌 Relax and use CloneBot V2 freely.</b></h4>
+<h4><b>7.Done? Nice! now click "CREATE CRONJOB" button and provide your copied ENDPOINT URL that you just copied and change execution schedule to every 5 minutes.Finally! click "CREATE" and you done it! 😌 Relax and use CloneBot V2 freely.</b></h4>
 <img src="Img/43.png" alt="43">
 <!---Creating Service Accounts--->
 <h2><b>🪪 Making Service Accounts</b></h2>
