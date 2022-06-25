@@ -1,6 +1,6 @@
 <h1 align ="center"><b>CloneBot V2 🔥</b></h1>
 <!---Introduction--->
-<p><b>CloneBot V2 is inspired from MsGsuite's CloneBot, which got out-dated and having too many errors in it. We both created it to keep the legacy of CloneBot alive! The bot who helped thousands of People cloning their data.❤️</b></p>
+<p><b>CloneBot V2 is inspired from MsGsuite's CloneBot, which got out-dated and having too many errors in it. We both created it to keep the legacy of CloneBot alive! The bot who helped thousands to cloning their data.❤️</b></p>
 <p><b>1. The Powerful Telegram Bot based on Gclone to clone Google Drive's Shared Drive data easily.⚡</b></p>
 <p><b>2. CloneBot V2 usage Service Accounts to easily clone TBs of data without hitting 750GB Upload/Clone limit of Google Drive.♻️</b></p>
 <p><b>3. It is most lightweight and performs only server-sided cloning to have very less load on system and don't use your own bandwidth.🗃️</b></p>
@@ -13,7 +13,7 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-notice">⛔ NOTICE</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-how-to-use">⚙️ How to use?</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-heroku">->⚡Deploy on Heroku</a></b></p>
-<p><b><a href=""></a></b></p>
+<p><b><a href="">->🪬Deploy on Okteto</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">🪪 Making Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">->🛠️ Create Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">->🌐 Adding in Google Group</a></b></p>
@@ -50,8 +50,8 @@
 <p><b>
 	path_to_gclone - Keep it as "gclone".<br>
     telegram_token - Enter Telegram Bot Token, get it from <a href="https://t.me/BotFather">@BotFather</a>.<br>
-    user_ids - Enter User IDs, which you want to allow your CloneBot V2. Separate by ',' and first ID is Admin.<br>
-    group_ids - Enter Group IDs, in which you want to allow your CloneBot V2 to be used otherwise keep it "-1"<br>
+    user_ids - Enter User IDs, which you want to allow your CloneBot V2. Separate IDs by ',' and first ID is Admin.<br>
+    group_ids - Enter Group IDs, in which you want to allow your CloneBot V2 to be used otherwise keep it "-1". Separate IDs by ','<br>
     gclone_para_override - Keep it blank if you don't know what it is.
 </b></p>
 <img src="Img/33.png" alt="33">
@@ -75,6 +75,28 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>7.Click "Deploy" button and once it got deployed, click "Manage App" then go to "Resource Tab" and enable the dyno as shown in the image.</b></h4>
 <img src="Img/37.png" alt="37">
 <h4><b>8.Enjoy! Your CloneBot V2 is now deployed and you can freely use it.</b></h4>
+<p><b>⛔NOTE: Heroku provides 550 running hours (dyno hours) per month and it restarts deployed app each 24 Hours.</b></p>
+<!---Okteto--->
+<h2><b>🪬Deploy on Okteto</b></h2>
+<p><b>Okteto is also very famous Kubernetes development platforms and used by many users and it is ideal for lightweight apps and it is perfect for CloneBot V2, Okteto don't have any running hours limit like Heroku but your CloneBot V2 will go to sleep if the ENDPOINT provided by Okteto for your CloneBot V2 untouched. Don't worry, I have solution too and some special arrangements.</b></p>
+<h4><b>1.First Create your Okteto Account, You need one GitHub account as okteto supports only one Method to either Create or Login:<a href="https://cloud.okteto.com/#/login" alt="Login on Okteto"> Create/Login on Okteto</a></b></h4>
+<img src="Img/38.png" alt="38">
+<h4><b>2.Now fork this repository, and go to Okteto Dashboard then press "Launch Dev Environment".</b></h4>
+<img src="Img/39.png" alt="39">
+<h4><b>3.After it, select your forked repository and select branch "main" and add following values carefully:</b></h4>
+<p><b>
+	BOT_TOKEN - Enter Telegram Bot Token, get it from <a href="https://t.me/BotFather">@BotFather</a>.<br>
+	ALLOW_USERS - Enter User IDs, which you want to allow your CloneBot V2. Separate IDs by ',' and first ID is Admin.<br>
+	ALLOW_GROUPS - Enter Group IDs, in which you want to allow your CloneBot V2 to be used otherwise keep it "-1". Separate IDs by ','.
+</b></p>
+<img src="Img/40.png" alt="40">
+<h4><b>4.Once done! press "Launch" and you successfully done it! Yes 😊</b></h4>
+<h4><b>5.Okteto make your deployed app to sleep if provided ENDPOINT (Alloted URL) remain untouched for 24 Hours. So lets setup a simple cron-job to keep your app active.</b></h4>
+<h4><b>6.First copy your app's ENDPOINT as shown in the image and go to <a href="https://cron-job.org/en" alt="Cron-Job">Cron-Job.org</a> and sign up!</b></h4>
+<img src="Img/41.png" alt="41">
+<img src="Img/42.png" alt="42">
+<h4><b>Done? Nice! now click "CREATE CRONJOB" button and provide your copied ENDPOINT URL that you just copied and change execution schedule to every 5 minutes.Finally! click "CREATE" and you done it! 😌 Relax and use CloneBot V2 freely.</b></h4>
+<img src="Img/43.png" alt="43">
 <!---Creating Service Accounts--->
 <h2><b>🪪 Making Service Accounts</b></h2>
 <p><b>Service Accounts are just like normal Google Account and thus have same Upload or Download limits as Google Account which is 750 GB Upload and 10 TB Download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive limits by creating them in a bulk amount. After creating Service Accounts, we have to add them in Google Group so that we can directly add Google Group's Email ID in Shared Drive at place of adding each Service Accounts manually.</b></p>
