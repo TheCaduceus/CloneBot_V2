@@ -76,6 +76,21 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <img src="Img/37.png" alt="37">
 <h4><b>8.Enjoy! Your CloneBot V2 is now deployed and you can freely use it.</b></h4>
 <p><b>⛔NOTE: Heroku provides 550 running hours (dyno hours) per month and it restarts deployed app each 24 Hours.</b></p>
+<!---GitHub-Actions-Heroku--->
+<h2><b>🧿Deploy through GitHub Actions</b></h2>
+<p><b>This methods is really amazing and simple!🥰 You can deploy your CloneBot V2 on Heroku using GitHub Actions itself by just providing your HEROKU API KEY,HEROKU EMAIL and HEROKU APPNAME.</b></p>
+<h4><b>1.First fork this repository, now open the settings of your Forked Repository and click Secrets->Actions.</b></h4>
+<img src="Img/44.png" alt="44">
+<h4><b>2.Then click "New repository secret" and create 4 secrets as stated below:</b></h4>
+<p><b>
+	HEROKU_API_KEY - Enter your Heroku API Key as value.
+	HEROKU_EMAIL - Your Heroku Email ID.
+	HEROKU_APP_NAME - A unique app name in small letters only.
+	CONFIG_FILE_URL - CONFIG_FILE_URL you made above for Heroku deployment!
+</b></p>
+<h4><b>3.Go to Actions Tab then click "Deploy to Heroku" and "Run Workflow". Now it will be automatically got deployed on given Heroku Account!😉</b></h4>
+<img src="Img/45.png" alt="45">
+<p><b>⛔NOTE: Deploying as web? change deploy.yml (Docker Process Type) and add PORT as Repository secret, value can be "8080".</b></p>
 <!---Okteto--->
 <h2><b>🪬Deploy on Okteto</b></h2>
 <p><b>Okteto is also very famous Kubernetes development platforms and used by many users and it is ideal for lightweight apps and it is perfect for CloneBot V2, Okteto don't have any running hours limit like Heroku but your CloneBot V2 will go to sleep if the ENDPOINT provided by Okteto for your CloneBot V2 untouched. Don't worry, I have solution too and some special arrangements.</b></p>
@@ -97,6 +112,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <img src="Img/42.png" alt="42">
 <h4><b>7.Done? Nice! now click "CREATE CRONJOB" button and provide your copied ENDPOINT URL that you just copied and change execution schedule to every 5 minutes.Finally! click "CREATE" and you done it! 😌 Relax and use CloneBot V2 freely.</b></h4>
 <img src="Img/43.png" alt="43">
+<p><b>⛔NOTE: Don't forget to setup Cron-Job for Okteto otherwise your deployed bot will go into sleep and you have to active it from Okteto Dashboard, while Cron-Job doing it on your behalf.</b></p>
 <!---Creating Service Accounts--->
 <h2><b>🪪 Making Service Accounts</b></h2>
 <p><b>Service Accounts are just like normal Google Account and thus have same Upload or Download limits as Google Account which is 750 GB Upload and 10 TB Download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive limits by creating them in a bulk amount. After creating Service Accounts, we have to add them in Google Group so that we can directly add Google Group's Email ID in Shared Drive at place of adding each Service Accounts manually.</b></p>
