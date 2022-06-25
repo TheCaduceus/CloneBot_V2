@@ -13,7 +13,7 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-notice">⛔ NOTICE</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-how-to-use">⚙️ How to use?</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-heroku">->⚡Deploy on Heroku</a></b></p>
-<p><b><a href="">->🪬Deploy on Okteto</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-okteto">->🪬Deploy on Okteto</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">🪪 Making Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">->🛠️ Create Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">->🌐 Adding in Google Group</a></b></p>
