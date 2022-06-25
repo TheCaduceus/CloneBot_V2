@@ -7,9 +7,12 @@
 <!---Index--->
 <h2><b>📑 INDEX</b></h2>
 <p><b>Easily navigate through out the guide and learn about Powerful CloneBot V2 and terms related to it.</b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#clonebot-v2-">🔥CloneBot V2 </a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#clonebot-v2-">CloneBot V2 🔥</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-whats-new">🆕 What's New!</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-notice">⛔ NOTICE</a></b></p>
+<p><b><a href="">⚙️ How to use?</a></b></p>
+<p><b><a href="">->⚡Deploy on Heroku</a></b></p>
+<p><b><a href=""></a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">🪪 Making Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">->🛠️ Create Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">->🌐 Adding in Google Group</a></b></p>
@@ -29,11 +32,48 @@
 <p><b><a href="www.github.com/TheCaduceus/CloneBot_V2/releases">Show Full Update history</a></b></p>
 <!---NOTICE--->
 <h2><b>⛔ NOTICE</b></h2>
-<p><b>1.You may need account for Heroku/Okteto/Scalingo while deploying CloneBot V2 to on respected platforms.</b></p>
+<p><b>1.You may need account for Heroku/Okteto/Scalingo while deploying CloneBot V2 on respected platforms.</b></p>
 <p><b>2.Service Accounts are mandatory to use CloneBot, because it uses Service Accounts to prevent hitting 750GB Upload/Clone limit of Google Drive while cloning large amount of dat.</b></p>
-<p><b>3.VPS or your local machine (PC,Laptop or Mobile) should have Python 3.10 and Git installed in order to run CloneBot V2.</b></p>
+<p><b>3.VPS or your local machine (PC or Laptop or Mobile) should have Python 3 and Git installed in order to run CloneBot V2.</b></p>
 <p><b>4.CloneBot V2 don't use your bandwidth or Internet connection while cloning data but it can if hosted on your local machine or VPS for calling required Telegram APIs to update the progress or to generate required response.</b></p>
 <p><b>5.This Project comes with GNU License, please consider reading it before using this.</b></p>
+<!---Deployment--->
+<h2><b>⚙️ How to use?</b></h2>
+<h4><b>CloneBot V2 is powerful yet lightweight Telegram CloneBot inspired from MsGsuite's CloneBot, we must deploy or host it somewhere so that it can start working and cloning data. Below are Platforms and methods to deploy or run CloneBot V2.</b>
+<!---Heroku--->
+<h3><b>⚡Deploy on Heroku</b></h3>
+<p><b>Heroku is very famous PaaS (Platform as a Service) platform and it provides very simple user environment as well as you can deploy CloneBot V2 very quickly on Heroku to run it continuously for 24 Hours.</b></p>
+<h4><b>1.First open <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/sample-config.ini"> sample-config.ini file</a> then copy its code.</b></h4>
+<img src="Img/32.png" alt="32">
+<h4><b>2.Now open GitHub Gist and create a new gist and paste the code you just copied and name it as "config.ini" and now fill below values carefully:</b></h4>
+<p><b>
+	path_to_gclone - Keep it as "gclone".<br>
+    telegram_token - Enter Telegram Bot Token, get it from <a href="https://t.me/BotFather">@BotFather</a>.<br>
+    user_ids - Enter User IDs, which you want to allow your CloneBot V2. Separate by ',' and first ID is Admin.<br>
+    group_ids - Enter Group IDs, in which you want to allow your CloneBot V2 to be used otherwise keep it "-1"<br>
+    gclone_para_override - Keep it blank if you don't know what it is.
+</b></p>
+<img src="Img/33.png" alt="33">
+<h4><b>3.Then press "Create Secret Gist" then click "Raw", it will open a New Tab in your Browser. Just copy the URL of that New Tab</b></h4>
+<img src="Img/34.png" alt="34">
+<img src="Img/35.png" alt="35">
+<h4><b>4.Once you copied it! then remove Commit_ID from the URL:</b></h4>
+<p><b>Before:<br>
+https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/{Commit_ID}/config.ini<br>
+After:<br>
+https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.ini
+</b></p>
+<h4><b>5.Press below CloneBot V2 deploy button for Heroku:</b></h4>
+<a href="https://heroku.com/deploy?template=https://github.com/TheCaduceus/CloneBot_V2"><img src="Img/Deploy-Button-Heroku.png" alt="Deploy on Heroku"></a>
+<h4><b>6.Enter Below Values:</b></h4>
+<p><b>
+	App Name - Give a unique name to your Bot
+	CONFIG_FILE_URL - Paste link you copied above.
+</b></p>
+<img src="Img/36.png" alt="36">
+<h4><b>7.Click "Deploy" button and once it got deployed, click "Manage App" then go to "Resource Tab" and enable the dyno as shown in the image.</b></h4>
+<img src="Img/37.png" alt="37">
+<h4><b>8.Enjoy! Your CloneBot V2 is now deployed and you can freely use it.</b></h4>
 <!---Creating Service Accounts--->
 <h2><b>🪪 Making Service Accounts</b></h2>
 <p><b>Service Accounts are just like normal Google Account and thus have same Upload or Download limits as Google Account which is 750 GB Upload and 10 TB Download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive limits by creating them in a bulk amount. After creating Service Accounts, we have to add them in Google Group so that we can directly add Google Group's Email ID in Shared Drive at place of adding each Service Accounts manually.</b></p>
