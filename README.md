@@ -1,17 +1,18 @@
-<h1 aligh ="center"><b>CloneBot V2 🔥</b></h1>
+<h1 align ="center"><b>CloneBot V2 🔥</b></h1>
 <!---Introduction--->
-<p><b>1.The Powerful Telegram Bot based on Gclone to clone Google Drive's Shared Drive data easily.</b></p>
-<p><b>2.CloneBot V2 usage Service Accounts to easily clone TBs of data without hitting 750GB Upload/Clone limit of Google Drive.</b></p>
-<p><b>3.It is most lightweight and performs only server-sided cloning to have very less load on system and don't use your own bandwidth.</b></p>
-<p><b>4.As source, users just have to provide the Google Drive's sharing link of Shared Drive/Folder or file and as destination, users just need to set Destination folders to choose where to clone.</b></p>
+<p><b>1. The Powerful Telegram Bot based on Gclone to clone Google Drive's Shared Drive data easily.</b></p>
+<p><b>2. CloneBot V2 usage Service Accounts to easily clone TBs of data without hitting 750GB Upload/Clone limit of Google Drive.</b></p>
+<p><b>3. It is most lightweight and performs only server-sided cloning to have very less load on system and don't use your own bandwidth.</b></p>
+<p><b>4. Just provide the sharing link of a particular Shared Drive/folder or file and set multiple destination folders to clone data.</b></p>
 <!---Index--->
 <h2><b>📑 INDEX</b></h2>
-<p><b><a href="">CloneBot V2</a></b></p>
-<p><b><a href="">🆕 What's New!</a></b></p>
-<p><b><a href="">⛔ NOTICE</a></b></p>
-<p><b><a href="">🪪 Making Service Accounts</a></b></p>
-<p><b><a href="">->🛠️ Create Service Accounts</a></b></p>
-<p><b><a href="">->🌐 Adding in Google Group</a></b></p>
+<p><b>Easily navigate through out the guide and learn about Powerful CloneBot V2 and terms related to it.</b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#clonebot-v2-">CloneBot V2 🔥</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-whats-new">🆕 What's New!</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-notice">⛔ NOTICE</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">🪪 Making Service Accounts</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">->🛠️ Create Service Accounts</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">->🌐 Adding in Google Group</a></b></p>
 <p><b><a href=""></a></b></p>
 <p><b><a href=""></a></b></p>
 <p><b><a href=""></a></b></p>
