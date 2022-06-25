@@ -1,9 +1,10 @@
 <h1 align ="center"><b>CloneBot V2 🔥</b></h1>
 <!---Introduction--->
-<p><b>1. The Powerful Telegram Bot based on Gclone to clone Google Drive's Shared Drive data easily.</b></p>
-<p><b>2. CloneBot V2 usage Service Accounts to easily clone TBs of data without hitting 750GB Upload/Clone limit of Google Drive.</b></p>
-<p><b>3. It is most lightweight and performs only server-sided cloning to have very less load on system and don't use your own bandwidth.</b></p>
-<p><b>4. Just provide the sharing link of a particular Shared Drive/folder or file and set multiple destination folders to clone data.</b></p>
+<p><b>CloneBot V2 is inspired from MsGsuite's CloneBot, which got out-dated and having too many errors in it. We both created it to keep the legacy of CloneBot alive! The bot who helped thousands of People cloning their data.❤️</b></p>
+<p><b>1. The Powerful Telegram Bot based on Gclone to clone Google Drive's Shared Drive data easily.⚡</b></p>
+<p><b>2. CloneBot V2 usage Service Accounts to easily clone TBs of data without hitting 750GB Upload/Clone limit of Google Drive.♻️</b></p>
+<p><b>3. It is most lightweight and performs only server-sided cloning to have very less load on system and don't use your own bandwidth.🗃️</b></p>
+<p><b>4. Just provide the sharing link of a particular Shared Drive/folder or file and set multiple destination folders to clone data.🔗</b></p>
 <!---Index--->
 <h2><b>📑 INDEX</b></h2>
 <p><b>Easily navigate through out the guide and learn about Powerful CloneBot V2 and terms related to it.</b></p>
