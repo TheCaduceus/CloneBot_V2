@@ -67,7 +67,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <a href="https://heroku.com/deploy?template=https://github.com/TheCaduceus/CloneBot_V2"><img src="Img/Deploy-Button-Heroku.png" alt="Deploy on Heroku"></a>
 <h4><b>6.Enter Below Values:</b></h4>
 <p><b>
-	App Name - Give a unique name to your Bot
+	App Name - Give a unique name to your Bot.<br>
 	CONFIG_FILE_URL - Paste link you copied above.
 </b></p>
 <img src="Img/36.png" alt="36">
