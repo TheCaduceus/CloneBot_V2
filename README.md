@@ -7,7 +7,7 @@
 <!---Index--->
 <h2><b>📑 INDEX</b></h2>
 <p><b>Easily navigate through out the guide and learn about Powerful CloneBot V2 and terms related to it.</b></p>
-<p><b><a href="">CloneBot V2</a></b></p>
+<p><b><a href="">CloneBot V2 🔥</a></b></p>
 <p><b><a href="">🆕 What's New!</a></b></p>
 <p><b><a href="">⛔ NOTICE</a></b></p>
 <p><b><a href="">🪪 Making Service Accounts</a></b></p>
@@ -77,8 +77,8 @@
 <h4><b>15.Now run following commands carefully in CMD one-by-one:</b></h4>
 <!---Commands--->
 <p><b>
-	1.pip3 install -U -r requirements.txt - To install requirements.<br>
-	2.py gen_sa_accounts.py - To get login URL.
+	1. pip3 install -U -r requirements.txt - To install requirements.<br>
+	2. py gen_sa_accounts.py - To get login URL.
 </b></p>
 <h4><b>16.Running command 2 will give you a Login URL, just copy & paste it in your URL and login using your Google Account and provide all asked permission.</b></h4>
 <p><b>⛔NOTE: Login only with Google account which you used to create Project on Google Cloud Console.</b></p>
@@ -87,11 +87,11 @@
 <h4><b>17.Back to CMD screen, run following commands carefully one-by-one: (Replace PROJECT_ID with Project ID which you get from command 3)</b></h4>
 <!---Commands--->
 <p><b>
-	3.py gen_sa_accounts.py --list-projects - To get the ID of your created Project.<br>
-	4.py gen_sa_accounts.py --enable-services PROJECT_ID - To Enable Services in given project.<br>
-	5.py gen_sa_accounts.py --create-sas PROJECT_ID - To create Service Accounts.<br>
-	6.py gen_sa_accounts.py --download-keys PROJECT_ID - To download Service Accounts file.<br>
-	7.py rename_script.py - To rename Service Accounts file in 1-100 sequence.
+	3. py gen_sa_accounts.py --list-projects - To get the ID of your created Project.<br>
+	4. py gen_sa_accounts.py --enable-services PROJECT_ID - To Enable Services in given project.<br>
+	5. py gen_sa_accounts.py --create-sas PROJECT_ID - To create Service Accounts.<br>
+	6. py gen_sa_accounts.py --download-keys PROJECT_ID - To download Service Accounts file.<br>
+	7. py rename_script.py - To rename Service Accounts file in 1-100 sequence.
 </b></p>
 <p><b>⛔NOTE: Replace PROJECT_ID with Project ID which you will get from command 3 and if commands not working then replace "py" with "python".</b></p>
 <h4><b>18.Till now, We have created 100 Service Accounts but we have to do some more work before we take them in our use. Open folder which you created in STEP 11 and you will see "accounts" folder in it which have your 100 Service Accounts file (json files), now type "Powershell" in address bar of accounts folder or as an alternative you can use "cd" commands like "cd FOLDER_PATH" in Powershell.</b></h4>
@@ -99,7 +99,7 @@
 <h4><b>19.Done? Now run following command in Powershell:</b></h4>
 <!---Powershell-Command--->
 <p><b>
-	8.$emails = Get-ChildItem .\**.json |Get-Content -Raw |ConvertFrom-Json |Select -ExpandProperty client_email >>emails.txt
+	8. $emails = Get-ChildItem .\**.json |Get-Content -Raw |ConvertFrom-Json |Select -ExpandProperty client_email >>emails.txt
 </b></p>
 <h4><b>20.Above command collects the EMAIL-ID of all your Service Accounts available in "accounts" folder into emails.txt file. Move "emails.txt" file from accounts folder to prevent confusion or any other problem.</b></h4>
 <h3><b>🌐 Adding in Google Group</b></h3>
