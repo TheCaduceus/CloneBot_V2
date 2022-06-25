@@ -1,4 +1,5 @@
 ## Bot Commands
+This commands will be visible to all your Bot users as command menu, to help them discovering your Bot's functionality.<br>
 Add following commands in BotFather:<br>
 ```
 start - Start the Bot
@@ -12,3 +13,4 @@ unvip - Remove a Telegram User ID to the VIP Access List
 id - Get your Telegram User  ID
 contact - Get the contacts details of the owner of the Bot
 ```
+⛔NOTICE: Adding this commands are optional, changing this commands from BotFather don't change it for Bot.
