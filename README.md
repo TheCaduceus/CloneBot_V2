@@ -7,12 +7,12 @@
 <!---Index--->
 <h2><b>📑 INDEX</b></h2>
 <p><b>Easily navigate through out the guide and learn about Powerful CloneBot V2 and terms related to it.</b></p>
-<p><b><a href="">CloneBot V2 🔥</a></b></p>
-<p><b><a href="">🆕 What's New!</a></b></p>
-<p><b><a href="">⛔ NOTICE</a></b></p>
-<p><b><a href="">🪪 Making Service Accounts</a></b></p>
-<p><b><a href="">->🛠️ Create Service Accounts</a></b></p>
-<p><b><a href="">->🌐 Adding in Google Group</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#clonebot-v2-">CloneBot V2 🔥</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-whats-new">🆕 What's New!</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-notice">⛔ NOTICE</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">🪪 Making Service Accounts</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">->🛠️ Create Service Accounts</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">->🌐 Adding in Google Group</a></b></p>
 <p><b><a href=""></a></b></p>
 <p><b><a href=""></a></b></p>
 <p><b><a href=""></a></b></p>
@@ -25,7 +25,7 @@
 <p><b>4.Bot can be deployed as both Web or Container on Heroku.🙃</b></p>
 <p><b>5.Mitigated Time Zone Error while deployment.🤗</b></p>
 <p><b>6.Addressed GitHub Workflow Error!😙</b></p>
-<p><b>7.Docker Images changed!😌</b></p>
+<p><b>7.Docker Image changed!😌</b></p>
 <p><b><a href="www.github.com/TheCaduceus/CloneBot_V2/releases">Show Full Update history</a></b></p>
 <!---NOTICE--->
 <h2><b>⛔ NOTICE</b></h2>
@@ -84,7 +84,7 @@
 <p><b>⛔NOTE: Login only with Google account which you used to create Project on Google Cloud Console.</b></p>
 <img src="Img/21.png" alt="21">
 <img src="Img/22.png" alt="22">
-<h4><b>17.Back to CMD screen, run following commands carefully one-by-one: (Replace PROJECT_ID with Project ID which you get from command 3)</b></h4>
+<h4><b>17.Back to CMD screen, run following commands carefully one-by-one:</b></h4>
 <!---Commands--->
 <p><b>
 	3. py gen_sa_accounts.py --list-projects - To get the ID of your created Project.<br>
