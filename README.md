@@ -91,7 +91,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 </b></p>
 <img src="Img/40.png" alt="40">
 <h4><b>4.Once done! press "Launch" and you successfully done it! Yes 😊</b></h4>
-<h4><b>5.Okteto make your deployed app to sleep if provided ENDPOINT (Alloted URL) remain untouched for 24 Hours. So lets setup a simple cron-job to keep your app active.</b></h4>
+<h4><b>5.Okteto make your deployed app to sleep if provided ENDPOINT (Allotted URL) remain untouched for 24 Hours. So lets setup a simple cron-job to keep your app active.</b></h4>
 <h4><b>6.First copy your app's ENDPOINT as shown in the image and go to <a href="https://cron-job.org/en" alt="Cron-Job">Cron-Job.org</a> and sign up!</b></h4>
 <img src="Img/41.png" alt="41">
 <img src="Img/42.png" alt="42">
