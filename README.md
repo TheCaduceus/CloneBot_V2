@@ -45,7 +45,7 @@
 <p><b>Heroku is very famous PaaS (Platform as a Service) platform and it provides very simple user environment as well as you can deploy CloneBot V2 very quickly on Heroku to run it continuously for 24 Hours.</b></p>
 <h4><b>1.First open <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/sample-config.ini"> sample-config.ini file</a> then copy its code.</b></h4>
 <img src="Img/32.png" alt="32">
-<h4><b>2.Now open GitHub Gist and create a new gist and paste the code you just copied and name it as "config.ini" and now fill below values carefully:</b></h4>
+<h4><b>2.Now open <a href="https://gist.github.com" alt="GitHub Gist">GitHub Gist</a> and create a new gist and paste the code you just copied and name it as "config.ini" and now fill below values carefully:</b></h4>
 <p><b>
 	path_to_gclone - Keep it as "gclone".<br>
     telegram_token - Enter Telegram Bot Token, get it from <a href="https://t.me/BotFather">@BotFather</a>.<br>
@@ -109,7 +109,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>⛔NOTE: Download json file as credentials.json only!</b></p>
 <img src="Img/18.png" alt="18">
 <img src="Img/19.png" alt="19">
-<h4><b>12.Once downloaded, now download some required python scripts from here and extract it. Then move "gen_sa_accounts.py","rename_script.py" as well as "requirements.txt" files to folder in which you downloaded "credentials.json".</b></h4>
+<h4><b>12.Once downloaded, now download some required python scripts <a href="https://www.caduceus.ml/files/SA%20-%20Auth%202.0.zip">from here</a> and extract it. Then move "gen_sa_accounts.py","rename_script.py" as well as "requirements.txt" files to folder in which you downloaded "credentials.json".</b></h4>
 <img src="Img/20.png" alt="20">
 <h4><b>13.Before we proceed further, please confirm you have installed Python (with pip) carefully. Not downloaded yet?<a href="https://www.python.org/downloads/" alt="Download Python"> Download Now!</a></b></h4>
 <h4><b>14.All Ready? Type "cmd" in the address bar of folder which you created in STEP 11 and hit ENTER or as an alternative of this, you can use "cd" command like "cd FOLDER_PATH" in CMD.</b></h4>
