@@ -13,6 +13,7 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-notice">⛔ NOTICE</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-how-to-use">⚙️ How to use?</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-heroku">->⚡Deploy on Heroku</a></b></p>
+<p><b><a href="">->🧿Deploy using GitHub Actions</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-okteto">->🪬Deploy on Okteto</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">🪪 Making Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">->🛠️ Create Service Accounts</a></b></p>
@@ -77,7 +78,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>8.Enjoy! Your CloneBot V2 is now deployed and you can freely use it.</b></h4>
 <p><b>⛔NOTE: Heroku provides 550 running hours (dyno hours) per month and it restarts deployed app each 24 Hours.</b></p>
 <!---GitHub-Actions-Heroku--->
-<h2><b>🧿Deploy through GitHub Actions</b></h2>
+<h2><b>🧿Deploy using GitHub Actions</b></h2>
 <p><b>This methods is really amazing and simple!🥰 You can deploy your CloneBot V2 on Heroku using GitHub Actions itself by just providing your HEROKU API KEY,HEROKU EMAIL and HEROKU APPNAME.</b></p>
 <h4><b>1.First fork this repository, now open the settings of your Forked Repository and click Secrets->Actions.</b></h4>
 <img src="Img/44.png" alt="44">
