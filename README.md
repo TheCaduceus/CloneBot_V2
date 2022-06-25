@@ -57,7 +57,7 @@
 <h4><b>3.Then press "Create Secret Gist" then click "Raw", it will open a New Tab in your Browser. Just copy the URL of that New Tab</b></h4>
 <img src="Img/34.png" alt="34">
 <img src="Img/35.png" alt="35">
-<h4><b>4.Once you copied it! then remove Commit_ID from the URL:</b></h4>
+<h4><b>4.Once you copied the URL! then remove Commit_ID from the URL:</b></h4>
 <p><b>Before:<br>
 https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/{Commit_ID}/config.ini<br>
 After:<br>
