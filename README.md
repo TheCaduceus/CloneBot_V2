@@ -7,12 +7,12 @@
 <!---Index--->
 <h2><b>📑 INDEX</b></h2>
 <p><b>Easily navigate through out the guide and learn about Powerful CloneBot V2 and terms related to it.</b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#clonebot-v2-">CloneBot V2 🔥</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-whats-new">🆕 What's New!</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-notice">⛔ NOTICE</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">🪪 Making Service Accounts</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">->🛠️ Create Service Accounts</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">->🌐 Adding in Google Group</a></b></p>
+<p><b><a href="">CloneBot V2</a></b></p>
+<p><b><a href="">🆕 What's New!</a></b></p>
+<p><b><a href="">⛔ NOTICE</a></b></p>
+<p><b><a href="">🪪 Making Service Accounts</a></b></p>
+<p><b><a href="">->🛠️ Create Service Accounts</a></b></p>
+<p><b><a href="">->🌐 Adding in Google Group</a></b></p>
 <p><b><a href=""></a></b></p>
 <p><b><a href=""></a></b></p>
 <p><b><a href=""></a></b></p>
@@ -110,7 +110,7 @@
 <img src="Img/27.png" alt="27">
 <h4><b>23.Once done, it will ask you to "Add Members" in your Group as shown in the image,just ignore it and directly press "Create Group". Now open your Google Group and select "Members" from sidebar and click "Add Members"</b></h4>
 <img src="Img/28.png" alt="28">
-<img src="Ing/29.png" alt="29">
+<img src="Img/29.png" alt="29">
 <h4><b>24.In the pop-up shown, enable "Directly add members" and open "emails.txt" file which you got from STEP 19 then copy & paste 10 Email IDs in the field named "Group Managers". In this way! add all 100 Email IDs in your Google Group but only 10 Email IDs at once.</b></h4>
 <img src="Img/30.png" alt="30">
 <h4><b>25.After adding all Email IDs of your Service Accounts, now copy the Email ID of your Google Group which looks like XXXXX@googlegroups.com and add it in your Shared Drives as "Manager".</b></h4>
