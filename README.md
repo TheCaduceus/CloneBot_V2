@@ -84,9 +84,9 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <img src="Img/44.png" alt="44">
 <h4><b>2.Then click "New repository secret" and create 4 secrets as stated below:</b></h4>
 <p><b>
-	HEROKU_API_KEY - Enter your Heroku API Key as value.
-	HEROKU_EMAIL - Your Heroku Email ID.
-	HEROKU_APP_NAME - A unique app name in small letters only.
+	HEROKU_API_KEY - Enter your Heroku API Key as value.<br>
+	HEROKU_EMAIL - Your Heroku Email ID.<br>
+	HEROKU_APP_NAME - A unique app name in small letters only.<br>
 	CONFIG_FILE_URL - CONFIG_FILE_URL you made above for Heroku deployment!
 </b></p>
 <h4><b>3.Go to Actions Tab then click "Deploy to Heroku" and "Run Workflow". Now it will be automatically got deployed on given Heroku Account!😉</b></h4>
