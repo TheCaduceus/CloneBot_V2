@@ -18,6 +18,7 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-heroku">->⚡Deploy on Heroku</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-using-github-actions">->🧿Deploy using GitHub Actions</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-okteto">->🪬Deploy on Okteto</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-deploy-on-vps-or-pc">🖥️ Deploy on VPS or PC</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">🪪 Making Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">->🛠️ Create Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">->🌐 Adding in Google Group</a></b></p>
@@ -133,11 +134,11 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>7.Done? Nice! now click "CREATE CRONJOB" button and provide your copied ENDPOINT URL that you just copied and change execution schedule to every 5 minutes.Finally! click "CREATE" and you done it! 😌 Relax and use CloneBot V2 freely.</b></h4>
 <img src="Img/43.png" alt="43">
 <p><b>⛔NOTE: Don't forget to setup Cron-Job for Okteto otherwise your deployed bot will go into sleep and you have to active it from Okteto Dashboard, while Cron-Job doing it on your behalf.</b></p>
-<h2><b>🖥️ Run on VPS or PC</b></h2>
+<h2><b>🖥️ Deploy on VPS or PC</b></h2>
 <p><b>Running CloneBot_V2 on your PC or VPS is very simple and takes very less efforts! It have very less load on your System and don't use your bandwidth or Internet connection for cloning Google Drive data but only for calling Telegram APIs to update the progress or to generate required response.</b></p>
 <h4><b>1.Download Requirements:</b></h4>
 <p><b>
-	-><a href="https://www.python.org/downloads/">Python 3 with pip or above</a><br>
+	-><a href="https://www.python.org/downloads/">Python 3 or above with pip</a><br>
 	-><a href="https://git-scm.com/downloads">Git</a>
 </b></p>
 <h4><b>2.Download Repository:</b></h4>
@@ -145,7 +146,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 	->git clone https://github.com/TheCaduceus/CloneBot_V2<br>
 	->Or Download from <a href="https://github.com/TheCaduceus/CloneBot_V2/releases">Here</a>
 </b></p>
-<h4><b>3.Install CloneBot_V2 Requirements:></b></h4>
+<h4><b>3.Install CloneBot_V2 Requirements:</b></h4>
 <p><b>
 	->cd CloneBot_V2<br>
 	->pip install -r requirements.txt
