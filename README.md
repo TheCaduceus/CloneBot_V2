@@ -135,8 +135,45 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>⛔NOTE: Don't forget to setup Cron-Job for Okteto otherwise your deployed bot will go into sleep and you have to active it from Okteto Dashboard, while Cron-Job doing it on your behalf.</b></p>
 <h2><b>🖥️ Run on VPS or PC</b></h2>
 <p><b>Running CloneBot_V2 on your PC or VPS is very simple and takes very less efforts! It have very less load on your System and don't use your bandwidth or Internet connection for cloning Google Drive data but only for calling Telegram APIs to update the progress or to generate required response.</b></p>
-<h3><b>METHOD 1:</b></h3>
-<h4><b>1.</b></h4>
+<h4><b>1.Download Requirements:</b></h4>
+<p><b>
+	-><a href="https://www.python.org/downloads/">Python 3 with pip or above</a><br>
+	-><a href="https://git-scm.com/downloads">Git</a>
+</b></p>
+<h4><b>2.Download Repository:</b></h4>
+<p><b>
+	->git clone https://github.com/TheCaduceus/CloneBot_V2<br>
+	->Or Download from <a href="https://github.com/TheCaduceus/CloneBot_V2/releases">Here</a>
+</b></p>
+<h4><b3.Install CloneBot_V2 Requirements:></b></h4>
+<p><b>
+	->cd CloneBot_V2
+	->pip install -r requirements.txt
+</b></p>
+<h4><b>4.Download Gclone:</b></h4>
+<p><b>
+	->Go to <a href="https://clonebot.tk/0:/">Gclone Library</a> and download Gclone file as per your Operating System and place it in "telegram_gcloner" folder.<br>
+	->Website provides direct download link, so you can also use Command-line to download Gclone.<br>
+	Linux:<br>
+	->curl download_link_here >> telegram_gcloner/gclone<br>
+	Windows:<br>
+	->curl download_link_here >> telegram_gcloner/gclone.exe
+</b></p>
+<h4><b>5.Edit Config.ini file</b></h4>
+<p><b>
+	->Open config.ini file in any text editor and enter the values of variables as <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeployment">written here</a>
+	<br>Or you can download your config.ini file from external source using <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">CONFIG_FILE_URL</a> by using Command-line:<br>
+	->curl CONFIG_FILE_URL >> telegram_gcloner/config.ini
+</b></p>
+<h4><b>6.Start CloneBot_V2:</b></h4>
+<p><b>
+      ->cd CloneBot_V2<br>
+      ->python telegram_gcloner/telegram_gcloner.py
+</b></p>
+<h4><b>7.Stop CloneBot_V2:</b></h4>
+<p><b>
+	->Press CTRL + C keys
+</b></p>
 <!---Creating Service Accounts--->
 <h2><b>🪪 Making Service Accounts</b></h2>
 <p><b>Service Accounts are just like normal Google Account and thus have same Upload or Download limits as Google Account which is 750 GB Upload and 10 TB Download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive limits by creating them in a bulk amount. After creating Service Accounts, we have to add them in Google Group so that we can directly add Google Group's Email ID in Shared Drive at place of adding each Service Accounts manually.</b></p>
