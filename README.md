@@ -20,6 +20,7 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-okteto">->🪬Deploy on Okteto</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-deploy-on-vps-or-pc">->🖥️ Deploy on VPS or PC</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-termux">->📱Deploy on Termux</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-scalingo">🎲Deploy on Scalingo</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">🪪 Making Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">->🛠️ Create Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">->🌐 Adding in Google Group</a></b></p>
@@ -183,6 +184,8 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>1.Download Termux app: <a href="https://github.com/termux/termux-app/releases" alt="Download-Termux">Download Here</a></b></h4>
 <h4><b>2.Choose specific code <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Termux-Guide.md">from here</a> based on architecture of your phone.</b></h4>
 <h4><b>3.Run the code you got from above and follow on-screen instructions.</b></h4>
+<h2><b>🎲Deploy on Scalingo</b></h2>
+<p><b>CloneBot_V2 is also deployable to Scalingo cloud, Just deploy "Scalingo" Branch. You only have to provide <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">CONFIG_FILE_URL</a while deploying on Scalingo.</b></p>
 <!---Creating Service Accounts--->
 <h2><b>🪪 Making Service Accounts</b></h2>
 <p><b>Service Accounts are just like normal Google Account and thus have same Upload or Download limits as Google Account which is 750 GB Upload and 10 TB Download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive limits by creating them in a bulk amount. After creating Service Accounts, we have to add them in Google Group so that we can directly add Google Group's Email ID in Shared Drive at place of adding each Service Accounts manually.</b></p>
