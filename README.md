@@ -19,6 +19,7 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-using-github-actions">->🧿Deploy using GitHub Actions</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-okteto">->🪬Deploy on Okteto</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-deploy-on-vps-or-pc">->🖥️ Deploy on VPS or PC</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-termux">📱Deploy on Termux</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">🪪 Making Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">->🛠️ Create Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">->🌐 Adding in Google Group</a></b></p>
@@ -134,6 +135,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>7.Done? Nice! now click "CREATE CRONJOB" button and provide your copied ENDPOINT URL that you just copied and change execution schedule to every 5 minutes.Finally! click "CREATE" and you done it! 😌 Relax and use CloneBot V2 freely.</b></h4>
 <img src="Img/43.png" alt="43">
 <p><b>⛔NOTE: Don't forget to setup Cron-Job for Okteto otherwise your deployed bot will go into sleep and you have to active it from Okteto Dashboard, while Cron-Job doing it on your behalf.</b></p>
+<!---Deploy-on-VPS/PC--->
 <h2><b>🖥️ Deploy on VPS or PC</b></h2>
 <p><b>Running CloneBot_V2 on your PC or VPS is very simple and takes very less efforts! It have very less load on your System and don't use your bandwidth or Internet connection for cloning Google Drive data but only for calling Telegram APIs to update the progress or to generate required response.</b></p>
 <h4><b>1.Download Requirements:</b></h4>
@@ -175,6 +177,12 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>
 	->Press CTRL + C keys
 </b></p>
+<!---Termux--->
+<h2><b>📱Deploy on Termux</b></h2>
+<p><b>Termux is a best app for running and using Command-line tools on Mobile, CloneBot can also be deploy on your Mobile using Termux itself, don't worry because CloneBot_V2 is very lightweight and designed to be deployed even on low-end systems and thus it will not cause heavy load on your Mobile.</b></p>
+<h4><b>1.Download Termux app: <a href="https://github.com/termux/termux-app/releases" alt="Download-Termux">Download Here</a></b></h4>
+<h4><b>2.Choose specific code <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Termux-Guide.md">from here</a> based on architecture of your phone.</b></h4>
+<h4><b>3.Run the code you got from above and follow on-screen instructions.</b></h4>
 <!---Creating Service Accounts--->
 <h2><b>🪪 Making Service Accounts</b></h2>
 <p><b>Service Accounts are just like normal Google Account and thus have same Upload or Download limits as Google Account which is 750 GB Upload and 10 TB Download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive limits by creating them in a bulk amount. After creating Service Accounts, we have to add them in Google Group so that we can directly add Google Group's Email ID in Shared Drive at place of adding each Service Accounts manually.</b></p>
@@ -257,3 +265,22 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>25.After adding all Email IDs of your Service Accounts, now copy the Email ID of your Google Group which looks like XXXXX@googlegroups.com and add it in your Shared Drives as "Manager".</b></h4>
 <img src="Img/31.png" alt="31">
 <h4><b>26.Finally! We have created 100 Service Accounts and also added them in Google Group. Each Service Account have 750 GB Upload/Clone limit and 10 TB Download limit that means now we can upload/clone 75 TB and can download 100 TB a day.</b></h4>
+<h2><b></b></h2>
+<h2><b>⛑Contact Us!</b></h2>
+<h4><b>Join our Update Channel at Telegram:<a href="https://telegram.me/TheCaduceusUPDATE"> Join Now!</a></b></h4>
+<h4><b>Directly Contact the Developer using Telegram <a href="https://telegram.me/HelpAutomatted_Bot">@HelpAutomatted_Bot</a></b></h4>
+<h2><b>❤️Credits & Thanks</b></h2>
+<h4><b>🔥CloneBot_V2:</b></h4>
+<p><b><a href="https://github.com/TheCaduceus">Dr.Caduceus</a>: For making this Project and Guide.</b></p>
+<p><b><a href="https://github.com/l3v11">Levi</a>: For Gclone and upgrading it.</b></p>
+<h4><b>⚡CloneBot:</b></h4>
+<p><b>
+	<a href="https://github.com/wrenfairbank/telegram_gcloner">wrenfairbank</a>: For the original python script.<br>
+	<a href="https://github.com/smartass08/telegram_gcloner">smartass08</a>: To adapt the scrip to heroku.<br>
+	<a href="https://github.com/anymeofu/CloneBot">anymeofu</a>: For making the Direct Heroku deployable Version.<br>
+Zero-The-Kamisama: To making MsGsuite discover this amazing bot and the detailed instructions.<br>
+	<a href="https://t.me/zorgof">zorgof</a>: For the termux script.<br>
+	<a href="https://github.com/aishik2005">Aishik Tokdar</a>: For Adding Guide to Deploy on Railway.app , Qovery , Clever Cloud , Scalingo and some other Code Improvements.Also Added Heroku Workflow Deployment Method.<br>
+	<a href="https://github.com/tiararosebiezetta">Katarina</a>: For adding the ability to be deployed to Clever Cloud and Scanlingo.<br>
+	<a href="https://github.com/missemily2022">Miss Emily</a>: For adding Support of Okteto Cloud Deployment as well as improving little layout.
+</b></p>
