@@ -1,2 +1,0 @@
-1.Code for Termux
-2.Guide for VPS/ Local Machine
