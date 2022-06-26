@@ -145,9 +145,9 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 	->git clone https://github.com/TheCaduceus/CloneBot_V2<br>
 	->Or Download from <a href="https://github.com/TheCaduceus/CloneBot_V2/releases">Here</a>
 </b></p>
-<h4><b3.Install CloneBot_V2 Requirements:></b></h4>
+<h4><b3>.Install CloneBot_V2 Requirements:></b></h4>
 <p><b>
-	->cd CloneBot_V2
+	->cd CloneBot_V2<br>
 	->pip install -r requirements.txt
 </b></p>
 <h4><b>4.Download Gclone:</b></h4>
