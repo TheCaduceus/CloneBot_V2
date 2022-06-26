@@ -278,7 +278,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 	<a href="https://github.com/wrenfairbank/telegram_gcloner">wrenfairbank</a>: For the original python script.<br>
 	<a href="https://github.com/smartass08/telegram_gcloner">smartass08</a>: To adapt the scrip to heroku.<br>
 	<a href="https://github.com/anymeofu/CloneBot">anymeofu</a>: For making the Direct Heroku deployable Version.<br>
-Zero-The-Kamisama: To making MsGsuite discover this amazing bot and the detailed instructions.<br>
+	<a href="#">Zero-The-Kamisama</a>: To making MsGsuite discover this amazing bot and the detailed instructions.<br>
 	<a href="https://t.me/zorgof">zorgof</a>: For the termux script.<br>
 	<a href="https://github.com/aishik2005">Aishik Tokdar</a>: For Adding Guide to Deploy on Railway.app , Qovery , Clever Cloud , Scalingo and some other Code Improvements.Also Added Heroku Workflow Deployment Method.<br>
 	<a href="https://github.com/tiararosebiezetta">Katarina</a>: For adding the ability to be deployed to Clever Cloud and Scanlingo.<br>
