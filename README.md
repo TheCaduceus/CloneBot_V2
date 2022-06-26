@@ -145,7 +145,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 	->git clone https://github.com/TheCaduceus/CloneBot_V2<br>
 	->Or Download from <a href="https://github.com/TheCaduceus/CloneBot_V2/releases">Here</a>
 </b></p>
-<h4><b3>.Install CloneBot_V2 Requirements:></b></h4>
+<h4><b>3.Install CloneBot_V2 Requirements:></b></h4>
 <p><b>
 	->cd CloneBot_V2<br>
 	->pip install -r requirements.txt
@@ -161,7 +161,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 </b></p>
 <h4><b>5.Edit Config.ini file</b></h4>
 <p><b>
-	->Open config.ini file in any text editor and enter the values of variables as <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeployment">written here</a>
+	->Open config.ini file in any text editor and enter the values of variables as <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeployment">written here</a><br>
 	<br>Or you can download your config.ini file from external source using <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">CONFIG_FILE_URL</a> by using Command-line:<br>
 	->curl CONFIG_FILE_URL >> telegram_gcloner/config.ini
 </b></p>
