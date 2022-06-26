@@ -26,8 +26,6 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">->🌐 Adding in Google Group</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#contact-us">⛑Contact Us!</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fcredits--thanks">❤️Credits & Thanks</a></b></p>
-<p><b><a href=""></a></b></p>
-<p><b><a href=""></a></b></p>
 <!---ChangeLog--->
 <h2><b>🆕 What's New!</b></h2>
 <p><b>1.Gclone upgraded to v1.58.1 (latest)!😉</b></p>
