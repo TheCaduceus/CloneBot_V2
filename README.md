@@ -41,10 +41,23 @@
 <p><b>5.This Project comes with GNU License, please consider reading it before using this.</b></p>
 <!---Deployment--->
 <h2><b>⚙️ How to use?</b></h2>
-<h4><b>CloneBot V2 is powerful yet lightweight Telegram CloneBot inspired from MsGsuite's CloneBot, we must deploy or host it somewhere so that it can start working and cloning data. Below are Platforms and methods to deploy or run CloneBot V2.</b>
-<!---Heroku--->
-<h3><b>⚡Deploy on Heroku</b></h3>
-<p><b>Heroku is very famous PaaS (Platform as a Service) platform and it provides very simple user environment as well as you can deploy CloneBot V2 very quickly on Heroku to run it continuously for 24 Hours.</b></p>
+<p><b>CloneBot V2 is very straight forward and easy to use bot. If you deployed your CloneBot V2 then consider adding commands in it through <a href="https://t.me/BotFather">@BotFather</a> to make it easy for other users to know bot commands, here is the <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Commands.md" alt="Command-list">commands list</a> to be set in <a href="https://t.me/BotFather">@BotFather</a>:</b></p>
+<h4><b>1.First convert accounts folder of your Service Accounts into accounts.zip then send it to bot and write "/sa" in caption or send "/sa" as reply to accounts.zip file. Don't have Service Accounts? <a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">Learn here</a> how to create</b></h4>
+<h4><b>2.Now Send /folders to your CloneBot_V2 and then bot will show Shared Drives name in which you added your Service Accounts's Google Group, select Shared Drive or directory available in it as destination. Not added Service Accounts in Google Group? <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">Learn here</a> how to do.</b></h4>
+<h4><b>3.Your CloneBot_V2 is now ready to be used! just send any Google Drive sharing link and select to Destination folder to selected before to clone data in it.</b></h4>
+<h4><b>4.Additionally, "/ban" and "/unban" command is to unauthorize or authorize user again and "/id" command is to get your Telegram User ID.</b></h4>
+<p><b>⛔NOTE: Each allowed user have to upload their own accounts.zip to use CloneBot_V2.</b></p>
+<h2><b>🕹️Deployment</b></h2>
+<p><b>Deployment of CloneBot_V2 is as simple as its usage! Their are many methods listed below to deploy CloneBot easily, but before you deploy it, you need some values listed below and how to get it:</b></p>
+<p><b>
+	path_to_gclone - Path to gclone file, by default it is "gclone" or change it if you using different one.<br>
+	BOT_TOKEN / telegram_token - Get your bot's Telegram API Token from <a href="https://t.me/BotFather">BotFather</a>.<br>
+	ALLOW_USERS / user_ids - Telegram User IDs of users who can use your CloneBot_V2. Separate them using ',' and first User ID is Admin.<br>
+	ALLOW_GROUPS / group_ids - Telegram Group IDs of Groups in which CloneBot can be used otherwise keep it "-1". Separate them using ','<br>
+	gclone_para_override - Keep it blank if you don't know what it is.
+</b></p>
+<h3><b>📄Getting CONFIG_FILE_URL</b></h3>
+<p><b>CONFIG_FILE_URL is URL to config.ini file which contains values of variables discussed above, lets see how to get your CONFIG_FILE_URL easily:</b></p>
 <h4><b>1.First open <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/sample-config.ini"> sample-config.ini file</a> then copy its code.</b></h4>
 <img src="Img/32.png" alt="32">
 <h4><b>2.Now open <a href="https://gist.github.com" alt="GitHub Gist">GitHub Gist</a> and create a new gist and paste the code you just copied and name it as "config.ini" and now fill below values carefully:</b></h4>
@@ -65,17 +78,20 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/{Commit_
 After:<br>
 https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.ini
 </b></p>
-<h4><b>5.Press below CloneBot V2 deploy button for Heroku:</b></h4>
+<!---Heroku--->
+<h3><b>⚡Deploy on Heroku</b></h3>
+<p><b>Heroku is very famous PaaS (Platform as a Service) platform and it provides very simple user environment as well as you can deploy CloneBot V2 very quickly on Heroku to run it continuously for 24 Hours.</b></p>
+<h4><b>1.Press below CloneBot V2 deploy button for Heroku:</b></h4>
 <a href="https://heroku.com/deploy?template=https://github.com/TheCaduceus/CloneBot_V2"><img src="Img/Deploy-Button-Heroku.png" alt="Deploy on Heroku"></a>
-<h4><b>6.Enter Below Values:</b></h4>
+<h4><b>2.Enter Below Values:</b></h4>
 <p><b>
 	App Name - Give a unique name to your Bot.<br>
-	CONFIG_FILE_URL - Paste link you copied above.
+	CONFIG_FILE_URL - Enter CONFIG_FILE_URL which you made <a href="">here</a>.
 </b></p>
 <img src="Img/36.png" alt="36">
-<h4><b>7.Click "Deploy" button and once it got deployed, click "Manage App" then go to "Resource Tab" and enable the dyno as shown in the image.</b></h4>
+<h4><b>3.Click "Deploy" button and once it got deployed, click "Manage App" then go to "Resource Tab" and enable the dyno as shown in the image.</b></h4>
 <img src="Img/37.png" alt="37">
-<h4><b>8.Enjoy! Your CloneBot V2 is now deployed and you can freely use it.</b></h4>
+<h4><b>3.Enjoy! Your CloneBot V2 is now deployed and you can freely use it.</b></h4>
 <p><b>⛔NOTE: Heroku provides 550 running hours (dyno hours) per month and it restarts deployed app each 24 Hours.</b></p>
 <!---GitHub-Actions-Heroku--->
 <h2><b>🧿Deploy using GitHub Actions</b></h2>
