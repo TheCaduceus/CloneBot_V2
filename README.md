@@ -1,6 +1,6 @@
 <h1 align ="center"><b>CloneBot V2 🔥</b></h1>
 <!---Introduction--->
-<p><b>CloneBot V2 is inspired from MsGsuite's CloneBot, which got out-dated and having too many errors in it. We both created it to keep the legacy of CloneBot alive! The bot who helped thousands to cloning their data.❤️</b></p>
+<p><b>CloneBot V2 is inspired from MsGsuite's CloneBot, which got out-dated and having too many errors in it. We both created it to keep the legacy of CloneBot alive! The bot who helped thousands for cloning their data.❤️</b></p>
 <p><b>1. The Powerful Telegram Bot based on Gclone to clone Google Drive's Shared Drive data easily.⚡</b></p>
 <p><b>2. CloneBot V2 usage Service Accounts to easily clone TBs of data without hitting 750GB Upload/Clone limit of Google Drive.♻️</b></p>
 <p><b>3. It is most lightweight and performs only server-sided cloning to have very less load on system and don't use your own bandwidth.🗃️</b></p>
@@ -47,8 +47,8 @@
 <h2><b>⚙️ How to use?</b></h2>
 <p><b>CloneBot V2 is very straight forward and easy to use bot. If you deployed your CloneBot V2 then consider adding commands in it through <a href="https://t.me/BotFather">@BotFather</a> to make it easy for other users to know bot commands, here is the <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Commands.md" alt="Command-list">commands list</a> to be set in <a href="https://t.me/BotFather">@BotFather</a>:</b></p>
 <h4><b>1.First convert accounts folder of your Service Accounts into accounts.zip then send it to bot and write "/sa" in caption or send "/sa" as reply to accounts.zip file. Don't have Service Accounts? <a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">Learn here</a> how to create</b></h4>
-<h4><b>2.Now Send /folders to your CloneBot_V2 and then bot will show Shared Drives name in which you added your Service Accounts's Google Group, select Shared Drive or directory available in it as destination. Not added Service Accounts in Google Group? <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">Learn here</a> how to do.</b></h4>
-<h4><b>3.Your CloneBot_V2 is now ready to be used! just send any Google Drive sharing link and select to Destination folder to selected before to clone data in it.</b></h4>
+<h4><b>2.Now Send /folders to your CloneBot V2 and then bot will show Shared Drives name in which you added your Service Accounts's Google Group, select Shared Drive or directory available in it as destination. Not added Service Accounts in Google Group? <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">Learn here</a> how to do.</b></h4>
+<h4><b>3.Your CloneBot V2 is now ready to be used! just send any Google Drive sharing link and select to Destination folder to selected before to clone data in it.</b></h4>
 <h4><b>4.Additionally, "/ban" and "/unban" command is to unauthorize or authorize user again and "/id" command is to get your Telegram User ID.</b></h4>
 <p><b>⛔NOTE: Each allowed user have to upload their own accounts.zip to use CloneBot_V2.</b></p>
 <h2><b>🕹️Deployment</b></h2>
@@ -178,15 +178,15 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 </b></p>
 <!---Termux--->
 <h2><b>📱Deploy on Termux</b></h2>
-<p><b>Termux is a best app for running and using Command-line tools on Mobile, CloneBot can also be deploy on your Mobile using Termux itself, don't worry because CloneBot_V2 is very lightweight and designed to be deployed even on low-end systems and thus it will not cause heavy load on your Mobile.</b></p>
+<p><b>Termux is a best app for running and using Command-line tools on Mobile, CloneBot can also be deploy on your Mobile using Termux itself, don't worry because CloneBot V2 is very lightweight and designed to be deployed even on low-end systems and thus it will not cause heavy load on your Mobile.</b></p>
 <h4><b>1.Download Termux app: <a href="https://github.com/termux/termux-app/releases" alt="Download-Termux">Download Here</a></b></h4>
 <h4><b>2.Choose specific code <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Termux-Guide.md">from here</a> based on architecture of your phone.</b></h4>
 <h4><b>3.Run the code you got from above and follow on-screen instructions.</b></h4>
 <h2><b>🎲Deploy on Scalingo</b></h2>
-<p><b>CloneBot_V2 is also deployable to Scalingo cloud, Just deploy "Scalingo" Branch. You only have to provide <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">CONFIG_FILE_URL</a while deploying on Scalingo.</b></p>
+<p><b>CloneBot V2 is also deployable to Scalingo cloud, Just deploy "Scalingo" Branch. You only have to provide <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">CONFIG_FILE_URL</a while deploying on Scalingo.</b></p>
 <!---Creating Service Accounts--->
 <h2><b>🪪 Making Service Accounts</b></h2>
-<p><b>Service Accounts are just like normal Google Account and thus have same Upload or Download limits as Google Account which is 750 GB Upload and 10 TB Download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive limits by creating them in a bulk amount. After creating Service Accounts, we have to add them in Google Group so that we can directly add Google Group's Email ID in Shared Drive at place of adding each Service Accounts manually.</b></p>
+<p><b>Service Accounts are just like normal Google Account and thus have same Upload or Download limits as Google Account which is 750GB Upload and 10TB Download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive limits by creating them in a bulk amount. After creating Service Accounts, we have to add them in Google Group so that we can directly add Google Group's Email ID in Shared Drive at place of adding each Service Accounts manually.</b></p>
 <h3><b>🛠️ Create Service Accounts</b></h3>
 <h4><b>1.First go to <a href="https://console.cloud.google.com/welcome">Google Cloud Console</a> and select "Crete or select a project" then click "CREATE PROJECT" as shown in the image.</b></h4>
 <img src="Img/1.png" alt="1">
@@ -270,7 +270,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>Join our Update Channel at Telegram:<a href="https://telegram.me/TheCaduceusUPDATE"> Join Now!</a></b></h4>
 <h4><b>Directly Contact the Developer using Telegram <a href="https://telegram.me/HelpAutomatted_Bot">@HelpAutomatted_Bot</a></b></h4>
 <h2><b>❤️Credits & Thanks</b></h2>
-<h4><b>🔥CloneBot_V2:</b></h4>
+<h4><b>🔥CloneBot V2:</b></h4>
 <p><b><a href="https://github.com/TheCaduceus">Dr.Caduceus</a>: For making this Project and Guide.</b></p>
 <p><b><a href="https://github.com/l3v11">Levi</a>: For Gclone and upgrading it.</b></p>
 <h4><b>⚡CloneBot:</b></h4>
