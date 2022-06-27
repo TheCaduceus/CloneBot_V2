@@ -1,3 +1,9 @@
+
+[![Deploy on Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy?source=https://github.com/tiararosebiezetta/SearchX#main)
+</p>
+
+
+
 <h1 align ="center"><b>CloneBot V2 🔥</b></h1>
 <!---Introduction--->
 <p><b>CloneBot V2 is inspired from MsGsuite's CloneBot, which got out-dated and having too many errors in it. We both created it to keep the legacy of CloneBot alive! The bot who helped thousands for cloning their data.❤️</b></p>
