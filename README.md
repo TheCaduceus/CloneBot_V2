@@ -1,7 +1,4 @@
 
-[![Deploy on Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy?source=https://github.com/FaallenDevil/CloneBot_V2#main)
-</p>
-
 
 
 <h1 align ="center"><b>CloneBot V2 🔥</b></h1>
