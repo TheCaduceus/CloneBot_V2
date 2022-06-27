@@ -9,9 +9,6 @@
 	"env": {
 		"CONFIG_FILE_URL": {
 			"description": "Please Enter your Config.ini file Raw URL"
-	       },
-		"PORT": {
-			"description": "Enter PORT, can be 8080"
 	       }
 	},
     	"stack": "container"
