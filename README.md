@@ -50,7 +50,7 @@
 <h4><b>2.Now Send /folders to your CloneBot V2 and then bot will show Shared Drives name in which you added your Service Accounts's Google Group, select Shared Drive or directory available in it as destination. Not added Service Accounts in Google Group? <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">Learn here</a> how to do.</b></h4>
 <h4><b>3.Your CloneBot V2 is now ready to be used! just send any Google Drive sharing link and select to Destination folder to selected before to clone data in it.</b></h4>
 <h4><b>4.Additionally, <code>/ban</code> and <code>/unban</code> command is to unauthorize or authorize user again and <code>/id</code> command is to get your Telegram User ID.</b></h4>
-<p><b>⛔NOTE: Each allowed user have to upload their own accounts.zip to use CloneBot_V2.</b></p>
+<p><b>⛔NOTE: Each allowed user have to upload their own <code>accounts.zip</code> to use CloneBot_V2.</b></p>
 <h2><b>🕹️Deployment</b></h2>
 <p><b>Deployment of CloneBot_V2 is as simple as its usage! Their are many methods listed below to deploy CloneBot easily, but before you deploy it, you need some values listed below and how to get it:</b></p>
 <p><b>
@@ -61,7 +61,7 @@
 	<code>gclone_para_override</code> - Keep it blank if you don't know what it is.
 </b></p>
 <h3><b>📄Getting CONFIG_FILE_URL</b></h3>
-<p><b><code>CONFIG_FILE_URL</code> is URL to config.ini file which contains values of variables discussed above, lets see how to get your <code>CONFIG_FILE_URL</code> easily:</b></p>
+<p><b><code>CONFIG_FILE_URL</code> is URL to <code>config.ini</code> file which contains values of variables discussed above, lets see how to get your <code>CONFIG_FILE_URL</code> easily:</b></p>
 <h4><b>1.First open <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/sample-config.ini"> sample-config.ini file</a> then copy its code.</b></h4>
 <img src="Img/32.png" alt="32">
 <h4><b>2.Now open <a href="https://gist.github.com" alt="GitHub Gist">GitHub Gist</a> and create a new gist and paste the code you just copied and name it as <code>config.ini</code> and now fill below values carefully:</b></h4>
@@ -73,7 +73,7 @@
     <code>gclone_para_override</code> - Keep it blank if you don't know what it is.
 </b></p>
 <img src="Img/33.png" alt="33">
-<h4><b>3.Then press "Create Secret Gist" then click "Raw", it will open a New Tab in your Browser. Just copy the URL of that New Tab</b></h4>
+<h4><b>3.Then press <code>Create Secret Gist</code> then click <code>Raw</code>, it will open a New Tab in your Browser. Just copy the URL of that New Tab</b></h4>
 <img src="Img/34.png" alt="34">
 <img src="Img/35.png" alt="35">
 <h4><b>4.Once you copied the URL! then remove <code>Commit_ID</code> from the URL:</b></h4>
