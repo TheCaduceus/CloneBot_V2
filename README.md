@@ -54,10 +54,10 @@
 <h2><b>🕹️Deployment</b></h2>
 <p><b>Deployment of CloneBot_V2 is as simple as its usage! Their are many methods listed below to deploy CloneBot easily, but before you deploy it, you need some values listed below and how to get it:</b></p>
 <p><b>
-	<code>path_to_gclone</code> - Path to gclone file, by default it is "gclone" or change it if you using different one.<br><br>
+	<code>path_to_gclone</code> - Path to gclone file, by default it is <code>gclone</code> or change it if you using different one.<br><br>
 	<code>BOT_TOKEN</code> / <code>telegram_token</code> - Get your bot's Telegram API Token from <a href="https://t.me/BotFather">BotFather</a>.<br><br>
-	<code>ALLOW_USERS</code> / <code>user_ids</code> - Telegram User IDs of users who can use your CloneBot_V2. Separate them using ',' and first User ID is Admin.<br><br>
-	<code>ALLOW_GROUPS</code / <code>group_ids</code> - Telegram Group IDs of Groups in which CloneBot can be used otherwise keep it "-1". Separate them using ','<br><br>
+	<code>ALLOW_USERS</code> / <code>user_ids</code> - Telegram User IDs of users who can use your CloneBot_V2. Separate them using <code>,</code> and first User ID is Admin.<br><br>
+	<code>ALLOW_GROUPS</code / <code>group_ids</code> - Telegram Group IDs of Groups in which CloneBot can be used otherwise keep it <code>-1</code>. Separate them using <code>,</code><br><br>
 	<code>gclone_para_override</code> - Keep it blank if you don't know what it is.
 </b></p>
 <h3><b>📄Getting CONFIG_FILE_URL</b></h3>
@@ -66,10 +66,10 @@
 <img src="Img/32.png" alt="32">
 <h4><b>2.Now open <a href="https://gist.github.com" alt="GitHub Gist">GitHub Gist</a> and create a new gist and paste the code you just copied and name it as <code>config.ini</code> and now fill below values carefully:</b></h4>
 <p><b>
-    <code>path_to_gclone</code> - Keep it as "gclone".<br><br>
+    <code>path_to_gclone</code> - Keep it as <code>gclone</code>.<br><br>
     <code>telegram_token</code> - Enter Telegram Bot Token, get it from <a href="https://t.me/BotFather">@BotFather</a>.<br><br>
-    <code>user_ids</code> - Enter User IDs, which you want to allow your CloneBot V2. Separate IDs by ',' and first ID is Admin.<br><br>
-    <code>group_ids</code> - Enter Group IDs, in which you want to allow your CloneBot V2 to be used otherwise keep it "-1". Separate IDs by ','<br><br>
+    <code>user_ids</code> - Enter User IDs, which you want to allow your CloneBot V2. Separate IDs by <code>,</code> and first ID is Admin.<br><br>
+    <code>group_ids</code> - Enter Group IDs, in which you want to allow your CloneBot V2 to be used otherwise keep it <code>-1</code>. Separate IDs by <code>,</code><br><br>
     <code>gclone_para_override</code> - Keep it blank if you don't know what it is.
 </b></p>
 <img src="Img/33.png" alt="33">
@@ -90,10 +90,10 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>2.Enter Below Values:</b></h4>
 <p><b>
 	<code>App Name</code> - Give a unique name to your Bot.<br><br>
-	<code>CONFIG_FILE_URL</code> - Enter CONFIG_FILE_URL which you made <a href="">here</a>.
+	<code>CONFIG_FILE_URL</code> - Enter <code>CONFIG_FILE_URL</code> which you made <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">here</a>.
 </b></p>
 <img src="Img/36.png" alt="36">
-<h4><b>3.Click "Deploy" button and once it got deployed, click "Manage App" then go to "Resource Tab" and enable the dyno as shown in the image.</b></h4>
+<h4><b>3.Click "Deploy" button and once it got deployed, click <code>Manage App</code> then go to <code>Resource Tab</code> and enable the dyno as shown in the image.</b></h4>
 <img src="Img/37.png" alt="37">
 <h4><b>3.Enjoy! Your CloneBot V2 is now deployed and you can freely use it.</b></h4>
 <p><b>⛔NOTE: Heroku provides 550 running hours (dyno hours) per month and it restarts deployed app each 24 Hours.</b></p>
