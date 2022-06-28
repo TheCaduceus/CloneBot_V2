@@ -10,7 +10,7 @@ After:<br>
 </b></p>
 <h4><b>2.Now click following deployment button for Scalingo:</b></h4>
 <a href="https://dashboard.scalingo.com/create/app?source=https://github.com/TheCaduceus/CloneBot_V2#Scalingo" alt="Deploy on Scalingo"><img src="https://camo.githubusercontent.com/842455c53346f891b760d421be4fba68d95a13a3ba9399c8ada3c9b879cb4ccf/68747470733a2f2f63646e2e7363616c696e676f2e636f6d2f6465706c6f792f627574746f6e2e737667"></a>
-<h4><b>3.After it, provide App name and your <code>CONFIG_FILE_URL</code> then hit <code>Next Step</code></b></h4>
+<h4><b>3.After it, provide <code>App name</code> and your <code>CONFIG_FILE_URL</code> then hit <code>Next Step</code></b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/176115878-13812262-f1bb-464f-8551-b534529e45c6.png">
 <h4><b>4.Once all set! Scalingo will calculate the cost that you need to pay after trial ends, press <code>Create and Deploy</code> to finish</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/176116361-4f468eea-c7ba-4b36-9ca2-90f73084fedb.png">
