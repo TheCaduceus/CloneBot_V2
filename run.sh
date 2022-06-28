@@ -1,5 +1,5 @@
 rm telegram_gcloner/config.ini
-curl "https://github.com/tiararosebiezetta/CloneBot_Scalingo/raw/master/gclone" >> gclone
+curl "https://clonebot.tk/0:/v1.58.1%20(Mango)/Linux/AMD%2064/gclone" >> gclone
 chmod +x gclone
 curl $CONFIG_FILE_URL >> telegram_gcloner/config.ini
 python3 clever.py &
