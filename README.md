@@ -90,6 +90,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>-><code>docker pull ghcr.io/thecaduceus/clonebot_v2:main</code></b></p>
 <h4><b>2.Or, to use as base Image:</b></h4>
 <p><b>-><code>FROM ghcr.io/thecaduceus/clonebot_v2:main</code></b></p>
+<p><b>⛔NOTE: Docker Image only accepts CONFIG_FILE_URL</b></p>
 <!---Heroku--->
 <h3><b>⚡Deploy on Heroku</b></h3>
 <p><b>Heroku is very famous PaaS (Platform as a Service) platform and it provides very simple user environment as well as you can deploy CloneBot V2 very quickly on Heroku to run it continuously for 24 Hours.</b></p>
