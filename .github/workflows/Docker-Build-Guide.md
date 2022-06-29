@@ -7,7 +7,7 @@
 <h4><b>2.Open <code>Docker-Code</code> file and copy its code.</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/176393096-869ea197-5512-4bad-b31e-ce532d2bab08.png">
 <h4><b>3.Go back to root directory of <code>main</code> branch and paste the copied code (by removing previous code) in <code>Dockerfile</code>.</b></h4>
-<h4><b>4.Once you make new commit, then go to <code>Actions</code> tab and you will see that Workflow is now triggered and started building your <code>Dockerfile</code>.</b></h4>
+<h4><b>4.Once you make new commit, then go to <code>Actions</code> tab and you will see that Workflow is now triggered and started building your <code>Docker Image</code>.</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/176394414-6c94dae1-d80d-486d-b406-3dc217b37832.png">
 <h4><b>5.Your Docker Image is now ready to be used, check out your Repository's <code>Packages</code> to know how to use it.😊</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/176394861-8d0567c2-96ec-4b5b-a5cf-ef20f409489d.png">
