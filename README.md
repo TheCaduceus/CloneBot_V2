@@ -40,8 +40,8 @@
 <!---NOTICE--->
 <h2><b>⛔ NOTICE</b></h2>
 <p><b>1.You may need account for Heroku/Okteto/Scalingo while deploying CloneBot V2 on respected platforms.</b></p>
-<p><b>2.Service Accounts are mandatory to use CloneBot, because it uses Service Accounts to prevent hitting 750GB Upload/Clone limit of Google Drive while cloning large amount of data.</b></p>
-<p><b>3.VPS or your local machine (PC or Laptop or Mobile) should have Python 3 and Git installed in order to run CloneBot V2.</b></p>
+<p><b>2.Service Accounts are mandatory to use CloneBot V2, because it uses Service Accounts to prevent hitting 750GB Upload/Clone limit of Google Drive while cloning large amount of data.</b></p>
+<p><b>3.VPS or your local machine (PC or Laptop or Mobile) should have <code>Python 3</code> and <code>Git</code> installed in order to run CloneBot V2.</b></p>
 <p><b>4.CloneBot V2 don't use your bandwidth or Internet connection while cloning data but it can if hosted on your local machine or VPS for calling required Telegram APIs to update the progress or to generate required response.</b></p>
 <p><b>5.This Project comes with GNU License, please consider reading it before using this.</b></p>
 <!---Deployment--->
@@ -53,7 +53,7 @@
 <h4><b>4.Additionally, <code>/ban</code> and <code>/unban</code> command is to unauthorize or authorize user again and <code>/id</code> command is to get your Telegram User ID.</b></h4>
 <p><b>⛔NOTE: Each allowed user have to upload their own <code>accounts.zip</code> to use CloneBot_V2.</b></p>
 <h2><b>🕹️Deployment</b></h2>
-<p><b>Deployment of CloneBot_V2 is as simple as its usage! Their are many methods listed below to deploy CloneBot easily, but before you deploy it, you need some values listed below and how to get it:</b></p>
+<p><b>Deployment of CloneBot V2 is as simple as its usage! Their are many methods listed below to deploy CloneBot easily, but before you deploy it, you need some values listed below and how to get it:</b></p>
 <p><b>
 	<code>path_to_gclone</code> - Path to gclone file, by default it is <code>gclone</code> or change it if you using different one.<br><br>
 	<code>BOT_TOKEN</code> / <code>telegram_token</code> - Get your bot's Telegram API Token from <a href="https://t.me/BotFather">BotFather</a>.<br><br>
@@ -90,6 +90,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>-><code>docker pull ghcr.io/thecaduceus/clonebot_v2:main</code></b></p>
 <h4><b>2.Or, to use as base Image:</b></h4>
 <p><b>-><code>FROM ghcr.io/thecaduceus/clonebot_v2:main</code></b></p>
+<h4><b>3.Want to build own docker image? alright! <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/.github/workflows/Docker-Build-Guide.md" alt="Build Docker Guide">here</a> is the guide.</b></h4>
 <p><b>⛔NOTE: Docker Image only accepts <code>CONFIG_FILE_URL</code></b></p>
 <!---Heroku--->
 <h3><b>⚡Deploy on Heroku</b></h3>
@@ -109,16 +110,16 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <!---GitHub-Actions-Heroku--->
 <h2><b>🧿Deploy using GitHub Actions</b></h2>
 <p><b>This methods is really amazing and simple!🥰 You can deploy your CloneBot V2 on Heroku using GitHub Actions itself by just providing your <code>HEROKU API KEY</code> <code>HEROKU EMAIL</code> and <code>HEROKU APPNAME</code>.</b></p>
-<h4><b>1.First fork this repository, now open the settings of your Forked Repository and click Secrets->Actions.</b></h4>
+<h4><b>1.First fork this repository, now open the settings of your Forked Repository and click <code>Secrets->Actions</code>.</b></h4>
 <img src="Img/44.png" alt="44">
 <h4><b>2.Then click "New repository secret" and create 4 secrets as stated below:</b></h4>
 <p><b>
 	<code>HEROKU_API_KEY</code> - Enter your Heroku API Key as value.<br><br>
 	<code>HEROKU_EMAIL</code> - Your Heroku Email ID.<br><br>
 	<code>HEROKU_APP_NAME</code> - A unique app name in small letters only.<br><br>
-	<code>CONFIG_FILE_URL</code> - CONFIG_FILE_URL you made above for Heroku deployment!
+	<code>CONFIG_FILE_URL</code> - <code>CONFIG_FILE_URL</code> you made above for Heroku deployment!
 </b></p>
-<h4><b>3.Go to Actions Tab then click "Deploy to Heroku" and "Run Workflow". Now it will be automatically got deployed on given Heroku Account!😉</b></h4>
+<h4><b>3.Go to Actions Tab then click <code>Deploy to Heroku</code> and <code>Run Workflow</code>. Now it will be automatically got deployed on given Heroku Account!😉</b></h4>
 <img src="Img/45.png" alt="45">
 <p><b>⛔NOTE: Deploying as web? change <code>deploy.yml</code> (Docker Process Type) and add <code>PORT</code> as Repository secret, value can be <code>8080</code>.</b></p>
 <!---Okteto--->
@@ -128,11 +129,11 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <img src="Img/38.png" alt="38">
 <h4><b>2.Now fork this repository, and go to Okteto Dashboard then press "Launch Dev Environment".</b></h4>
 <img src="Img/39.png" alt="39">
-<h4><b>3.After it, select your forked repository and select branch "main" and add following values carefully:</b></h4>
+<h4><b>3.After it, select your forked repository and select branch <code>main</code> and add following values carefully:</b></h4>
 <p><b>
 	<code>BOT_TOKEN</code> - Enter Telegram Bot Token, get it from <a href="https://t.me/BotFather">@BotFather</a>.<br><br>
-	<code>ALLOW_USERS</code> - Enter User IDs, which you want to allow your CloneBot V2. Separate IDs by ',' and first ID is Admin.<br><br>
-	<code>ALLOW_GROUPS</code> - Enter Group IDs, in which you want to allow your CloneBot V2 to be used otherwise keep it "-1". Separate IDs by ','.
+	<code>ALLOW_USERS</code> - Enter User IDs, which you want to allow your CloneBot V2. Separate IDs by <code>,</code> and first ID is Admin.<br><br>
+	<code>ALLOW_GROUPS</code> - Enter Group IDs, in which you want to allow your CloneBot V2 to be used otherwise keep it <code>-1</code>. Separate IDs by <code>,</code>.
 </b></p>
 <img src="Img/40.png" alt="40">
 <h4><b>4.Once done! press "Launch" and you successfully done it! Yes 😊</b></h4>
@@ -145,7 +146,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>⛔NOTE: Don't forget to setup Cron-Job for Okteto otherwise your deployed bot will go into sleep and you have to active it from Okteto Dashboard, while Cron-Job doing it on your behalf.</b></p>
 <!---Deploy-on-VPS/PC--->
 <h2><b>🖥️ Deploy on VPS or PC</b></h2>
-<p><b>Running CloneBot_V2 on your PC or VPS is very simple and takes very less efforts! It have very less load on your System and don't use your bandwidth or Internet connection for cloning Google Drive data but only for calling Telegram APIs to update the progress or to generate required response.</b></p>
+<p><b>Running CloneBot V2 on your PC or VPS is very simple and takes very less efforts! It have very less load on your System and don't use your bandwidth or Internet connection for cloning Google Drive data but only for calling Telegram APIs to update the progress or to generate required response.</b></p>
 <h4><b>1.Download Requirements:</b></h4>
 <p><b>
 	-><a href="https://www.python.org/downloads/">Python 3 or above with pip</a><br>
@@ -170,18 +171,18 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 	Windows:<br>
 	-><code>curl download_link_here >> telegram_gcloner/gclone.exe</code>
 </b></p>
-<h4><b>5.Edit Config.ini file</b></h4>
+<h4><b>5.Edit <code>Config.ini</code> file</b></h4>
 <p><b>
-	->Open config.ini file in any text editor and enter the values of variables as <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeployment">written here</a><br>
-	<br>Or you can download your config.ini file from external source using <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">CONFIG_FILE_URL</a> by using Command-line:<br>
+	->Open <code>config.ini</code> file in any text editor and enter the values of variables as <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeployment">written here</a><br>
+	<br>Or you can download your <code>config.ini</code> file from external source using <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">CONFIG_FILE_URL</a> by using Command-line:<br>
 	-><code>curl CONFIG_FILE_URL >> telegram_gcloner/config.ini</code>
 </b></p>
-<h4><b>6.Start CloneBot_V2:</b></h4>
+<h4><b>6.Start CloneBot V2:</b></h4>
 <p><b>
       -><code>cd CloneBot_V2</code><br>
       -><code>python telegram_gcloner/telegram_gcloner.py</code>
 </b></p>
-<h4><b>7.Stop CloneBot_V2:</b></h4>
+<h4><b>7.Stop CloneBot V2:</b></h4>
 <p><b>
 	->Press <code>CTRL</code> + <code>C</code> keys
 </b></p>
@@ -192,13 +193,13 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>2.Choose specific code <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Termux-Guide.md">from here</a> based on architecture of your phone.</b></h4>
 <h4><b>3.Run the code you got from above and follow on-screen instructions.</b></h4>
 <h2><b>🎲Deploy on Scalingo</b></h2>
-<p><b>CloneBot V2 is also deployable to Scalingo cloud, Just deploy "Scalingo" Branch.</b></p>
+<p><b>CloneBot V2 is also deployable to Scalingo cloud, Just deploy <code>Scalingo</code> Branch.</b></p>
 <p><b>Switch to <a href="https://github.com/TheCaduceus/CloneBot_V2/tree/Scalingo">Scalingo Branch</a> for guide.</b></p>
 <!---Creating Service Accounts--->
 <h2><b>🪪 Making Service Accounts</b></h2>
 <p><b>Service Accounts are just like normal Google Account and thus have same Upload or Download limits as Google Account which is 750GB Upload and 10TB Download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive limits by creating them in a bulk amount. After creating Service Accounts, we have to add them in Google Group so that we can directly add Google Group's Email ID in Shared Drive at place of adding each Service Accounts manually.</b></p>
 <h3><b>🛠️ Create Service Accounts</b></h3>
-<h4><b>1.First go to <a href="https://console.cloud.google.com/welcome">Google Cloud Console</a> and select "Crete or select a project" then click "CREATE PROJECT" as shown in the image.</b></h4>
+<h4><b>1.First go to <a href="https://console.cloud.google.com/welcome">Google Cloud Console</a> and select "Create or select a project" then click "CREATE PROJECT" as shown in the image.</b></h4>
 <img src="Img/1.png" alt="1">
 <img src="Img/2.png" alt="2">
 <h4><b>2.Now give your Project Name, for location select "No organization" and click "CREATE".</b></h4>
@@ -273,7 +274,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <img src="Img/29.png" alt="29">
 <h4><b>24.In the pop-up shown, enable "Directly add members" and open <code>emails.txt</code> file which you got from STEP 19 then copy & paste 10 Email IDs in the field named "Group Managers". In this way! add all 100 Email IDs in your Google Group but only 10 Email IDs at once.</b></h4>
 <img src="Img/30.png" alt="30">
-<h4><b>25.After adding all Email IDs of your Service Accounts, now copy the Email ID of your Google Group which looks like XXXXX@googlegroups.com and add it in your Shared Drives as "Manager".</b></h4>
+<h4><b>25.After adding all Email IDs of your Service Accounts, now copy the Email ID of your Google Group which looks like <code>XXXXX@googlegroups.com</code> and add it in your Shared Drives as "Manager".</b></h4>
 <img src="Img/31.png" alt="31">
 <h4><b>26.Finally! We have created 100 Service Accounts and also added them in Google Group. Each Service Account have 750 GB Upload/Clone limit and 10 TB Download limit that means now we can upload/clone 75 TB and can download 100 TB a day.</b></h4>
 <h2><b>⛑Contact Us!</b></h2>
