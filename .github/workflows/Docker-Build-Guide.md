@@ -1,5 +1,5 @@
 <h1 align="center"><b>🐳 Docker Build Guide</b></h1>
-<p><b>As per your requirements, or to run CloneBot V2 easily on your OS and its architecture you can make your own Docker Image for CloneBot V2, the process of building docker image is automated and easy, you just need to edit <code>Dockerfile</code> available in root directory <code>main</code> branch and Workflow will be triggered automatically which can be checked from <code>Actions</code> tab.</b></p>
+<p><b>As per your requirements, or to run CloneBot V2 easily on your OS and depending upon its architecture you can make your own Docker Image for CloneBot V2, the process of building docker image is automated and easy, you just need to edit <code>Dockerfile</code> available in root directory of <code>main</code> branch and Workflow will be triggered automatically which can be checked from <code>Actions</code> tab.</b></p>
 <h2><b>🛠️ Instructions:</b></h2>
 <p><b>For quickly building the same Docker Image used by CloneBot V2:</b></p>
 <h4><b>1.Go to <code>.github/workflows</code> in <code>main</code> branch.</b></h4>
