@@ -36,6 +36,7 @@
 <p><b>5.Mitigated Time Zone Error while deployment.🤗</b></p>
 <p><b>6.Addressed GitHub Workflow Error!😙</b></p>
 <p><b>7.Docker Image changed!😌</b></p>
+<p><b>8.Fixed error where CloneBot V2 is unable to show progress!😘</b></p>
 <p><b><a href="www.github.com/TheCaduceus/CloneBot_V2/releases">Show Full Update history</a></b></p>
 <!---NOTICE--->
 <h2><b>⛔ NOTICE</b></h2>
