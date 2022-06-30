@@ -2,12 +2,10 @@ version: "3.9"
 
 services:
   clonebot:
-    image: kerensekali/clonebot:latest
+    image: ghcr.io/thecaduceus/clonebot_v2:main
     container_name: clonebot
     environment:
-      - telegram_token=${BOT_TOKEN}
-      - user_ids=${ALLOW_USERS}
-      - group_ids=${ALLOW_GROUPS}
+      - CONFIG_FILE_URL=${CONFIG_FILE_URL}
     ports:
       - 8080:8080
     restart: unless-stopped
