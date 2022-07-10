@@ -39,9 +39,9 @@
 * Typo Errors 🔍 by @TheCaduceus in https://github.com/TheCaduceus/CloneBot_V2/pull/7
 * 🐳 docker image update by @TheCaduceus in https://github.com/TheCaduceus/CloneBot_V2/pull/8
 * Update gclone to v1.59.0-abe by @l3v11 in https://github.com/TheCaduceus/CloneBot_V2/pull/11
-* ⚙️New Gclone `v1.59.0 ` by @TheCaduceus in https://github.com/TheCaduceus/CloneBot_V2/pull/12
+* ⚙️New Gclone `v1.59.0` by @TheCaduceus in https://github.com/TheCaduceus/CloneBot_V2/pull/12
 
-**Full Changelog**: https://github.com/TheCaduceus/CloneBot_V2/compare/V2.0.4...V2.1.4
+**Full Changelog**: <a href="https://github.com/TheCaduceus/CloneBot_V2/compare/V2.0.4...V2.1.4">Check Here</a>
 <!---NOTICE--->
 <h2><b>⛔ NOTICE</b></h2>
 <p><b>1.You may need account for Heroku/Okteto/Scalingo while deploying CloneBot V2 on respected platforms.</b></p>
