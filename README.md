@@ -30,7 +30,7 @@
 <!---ChangeLog--->
 <h2><b>🆕 What's New!</b></h2>
 <p><b>1.Gclone upgraded to v1.59.0 (latest)!😉</b></p>
-<p><b>2.Base Image changed to Ubuntu 22.04</b></p.
+<p><b>2.Base Image changed to Ubuntu 22.04</b></p>
 
 ## What's Changed
 * Add 🐳Build or Deploy using Docker + Typo Errors 🔍 by @TheCaduceus in https://github.com/TheCaduceus/CloneBot_V2/pull/4
