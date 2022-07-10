@@ -30,6 +30,7 @@
 <!---ChangeLog--->
 <h2><b>🆕 What's New!</b></h2>
 <p><b>1.Gclone upgraded to v1.59.0 (latest)!😉</b></p>
+<p><b>2.Switch Base Image to Ubuntu 22.04</b></p>
 <p><b>2.Deployment on Okteto & Scalingo Added!🤩</b></p>
 <p><b>3.Port Error fixed for Okteto deployments!😄</b></p>
 <p><b>4.Bot can be deployed as both Web or Worker on Heroku.🙃</b></p>
