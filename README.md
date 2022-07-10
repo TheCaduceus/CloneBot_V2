@@ -30,15 +30,18 @@
 <!---ChangeLog--->
 <h2><b>🆕 What's New!</b></h2>
 <p><b>1.Gclone upgraded to v1.59.0 (latest)!😉</b></p>
-<p><b>2.Switch Base Image to Ubuntu 22.04</b></p>
-<p><b>2.Deployment on Okteto & Scalingo Added!🤩</b></p>
-<p><b>3.Port Error fixed for Okteto deployments!😄</b></p>
-<p><b>4.Bot can be deployed as both Web or Worker on Heroku.🙃</b></p>
-<p><b>5.Mitigated Time Zone Error while deployment.🤗</b></p>
-<p><b>6.Addressed GitHub Workflow Error!😙</b></p>
-<p><b>7.Docker Image changed!😌</b></p>
-<p><b>8.Fixed error where CloneBot V2 is unable to show progress!😘</b></p>
-<p><b><a href="www.github.com/TheCaduceus/CloneBot_V2/releases">Show Full Update history</a></b></p>
+<p><b>2.Base Image changed to Ubuntu 22.04</b></p.
+
+## What's Changed
+* Add 🐳Build or Deploy using Docker + Typo Errors 🔍 by @TheCaduceus in https://github.com/TheCaduceus/CloneBot_V2/pull/4
+* 🐳Docker Build Guide + Typo Errors 🔍 by @TheCaduceus in https://github.com/TheCaduceus/CloneBot_V2/pull/5
+* 🐳docker build guide + typo errors 🔍 by @TheCaduceus in https://github.com/TheCaduceus/CloneBot_V2/pull/6
+* Typo Errors 🔍 by @TheCaduceus in https://github.com/TheCaduceus/CloneBot_V2/pull/7
+* 🐳 docker image update by @TheCaduceus in https://github.com/TheCaduceus/CloneBot_V2/pull/8
+* Update gclone to v1.59.0-abe by @l3v11 in https://github.com/TheCaduceus/CloneBot_V2/pull/11
+* ⚙️New Gclone `v1.59.0 ` by @TheCaduceus in https://github.com/TheCaduceus/CloneBot_V2/pull/12
+
+**Full Changelog**: https://github.com/TheCaduceus/CloneBot_V2/compare/V2.0.4...V2.1.4
 <!---NOTICE--->
 <h2><b>⛔ NOTICE</b></h2>
 <p><b>1.You may need account for Heroku/Okteto/Scalingo while deploying CloneBot V2 on respected platforms.</b></p>
