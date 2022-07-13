@@ -116,7 +116,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 </b></p>
 <h4><b>3.Go to Actions Tab then click <code>Deploy to Heroku</code> and <code>Run Workflow</code>. Now it will be automatically got deployed on given Heroku Account!😉</b></h4>
 <img src="Img/45.png" alt="45">
-<p><b>⛔NOTE: Deploying as web? change <code>deploy.yml</code> (Docker Process Type) and add <code>PORT</code> as Repository secret, value can be <code>8080</code>.</b></p>
+<p><b>⛔NOTE: Deploying as web? change <code>deploy.yml</code> (Docker Heroku Process Type) and add <code>PORT</code> as Repository secret, value can be <code>8080</code>.</b></p>
 <!---Okteto--->
 <h2><b>🪬Deploy on Okteto</b></h2>
 <p><b>Okteto is also very famous Kubernetes development platforms and used by many users and it is ideal for lightweight apps and it is perfect for CloneBot V2, Okteto don't have any running hours limit like Heroku but your CloneBot V2 will go to sleep if the ENDPOINT provided by Okteto for your CloneBot V2 untouched. Don't worry, I have solution too and some special arrangements.</b></p>
