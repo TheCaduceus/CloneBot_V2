@@ -104,7 +104,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>⛔NOTE: Heroku provides 550 running hours (dyno hours) per month and it restarts deployed app each 24 Hours.</b></p>
 <!---GitHub-Actions-Heroku--->
 <h2><b>🧿Deploy using GitHub Actions</b></h2>
-<p><b>This methods is really amazing and simple!🥰 You can deploy your CloneBot V2 on Heroku using GitHub Actions itself by just providing your <code>HEROKU API KEY</code> <code>HEROKU EMAIL</code> and <code>HEROKU APPNAME</code>.</b></p>
+<p><b>This method is really amazing and simple!🥰 You can deploy your CloneBot V2 on Heroku using GitHub Actions itself by just providing your <code>HEROKU API KEY</code> <code>HEROKU EMAIL</code> and <code>HEROKU APPNAME</code>.</b></p>
 <h4><b>1.First fork this repository, now open the settings of your Forked Repository and click <code>Secrets->Actions</code>.</b></h4>
 <img src="Img/44.png" alt="44">
 <h4><b>2.Then click "New repository secret" and create 4 secrets as stated below:</b></h4>
