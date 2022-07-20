@@ -1,8 +1,11 @@
-FROM ubuntu:20.04
+# As per choice
+FROM ubuntu:latest
 
+# Change as per VPS
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 
+# Non interactive or as per choice
 ENV TZ=Asia/Kolkata
 RUN ln -snf "/usr/share/zoneinfo/$TZ" /etc/localtime
 RUN echo "$TZ" > /etc/timezone
@@ -10,13 +13,15 @@ RUN echo "$TZ" > /etc/timezone
 RUN apt-get update
 RUN apt-get install -y tzdata
 RUN apt-get -qq update
+
+# Remove if using Gclone Library
 RUN apt install unzip -y
+
 RUN apt-get -qq install -y git python3 python3-pip \
     locales python3-lxml aria2 \
     curl pv jq nginx npm
     
-# Credits to Levi
-# gclone v1.59.0-abe
+# Customize using Gclone Library without unzip
 RUN aria2c https://github.com/l3v11/gclone/releases/download/v1.59.0-abe/gclone-v1.59.0-abe-linux-amd64.zip && \
     unzip gclone-v1.59.0-abe-linux-amd64.zip && \
     mv gclone-v1.59.0-abe-linux-amd64/gclone /usr/bin/ && \
