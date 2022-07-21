@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 def init(dispatcher: Dispatcher):
     """Provide handlers initialization."""
     dispatcher.add_handler(CommandHandler('sa', get_sa, filters=~Filters.update.edited_message))
-    dispatcher.add_handler(MessageHandler(Filters.private & Filters.document, get_sa))
+    dispatcher.add_handler(MessageHandler(Filters.chat_type.private & Filters.document, get_sa))
 
 
 @restricted_private
@@ -106,5 +106,5 @@ def get_sa(update, context):
     with open(os.path.join(zip_path, 'rclone.conf'), 'w') as file_to_write:
         config_file.write(file_to_write)
 
-    update.message.reply_text('✔️ A total of {} SA files were received and configured to use in Clone Bot. \n │ Now bookmark your favorite folders with /folders'.format(json_count))
+    update.message.reply_text('✔️ A total of {} SA files were received and configured to use in CloneBot V2. \n │ Now bookmark your favorite folders with /folders'.format(json_count))
     logger.info('{} Service Accounts have been saved for the User {}.'.format(json_count, update.effective_user.id))
