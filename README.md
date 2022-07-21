@@ -15,6 +15,7 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Commands.md">->🔩Commands for BotFather</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#making-shared-drive">🫙Making Shared Drive</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#using-website">->🌐Using Website</a></b></p>
+<p><b><a href="">🐍Python with PIP Installation</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#using-telegram-bot">->🤖Using Telegram Bot</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeployment">🕹️Deployment</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">->📄Getting CONFIG_FILE_URL</a></b></p>
@@ -72,7 +73,7 @@
 <img src="https://user-images.githubusercontent.com/87380104/180258551-4bbd0802-0655-4ec1-97e8-32aa46dce184.png">
 <p><b>⛔NOTE: Shared Drive is a temporary storage! use it carefully and keep backup of your data always with you.</b></p>
 <h2><b>🐍Python with PIP Installation</b></h2>
-<p><b>Generally, I seen people! blindly running and ignoring options provided by Setup for installing Python and PIP which is most important thing to make <a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts"Service Accounts</a> or to run CloneBot V2. People like it are just there to flood out support chat and abuse moderators too! hence I made this Section to tackle this special problem which is really trust me not a problem. Lets name this disease Setup-Blindness😂</b></p>
+<p><b>Generally, I seen people! blindly running and ignoring options provided by Setup for installing Python and PIP which is most important thing to make <a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">Service Accounts</a> or to run CloneBot V2. People like it are just there to flood out support chat and abuse moderators too! Hence I made this Section to tackle this special disease. Lets name this disease Setup-Blindness😂</b></p>
 <h4><b>1.Run the Python Setup again and click <code>Customize Installation</code>:</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/180266218-8a8f822f-d7f6-4896-862c-ffa196d7cdee.png">
 <h4><b>2.Now select all options as shown in the image and click <code>Next</code>.</b></h4>
