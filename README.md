@@ -161,10 +161,11 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>
 	->Go to <a href="https://clonebot.tk/0:/">Gclone Library</a> and download Gclone file as per your Operating System and place it in "telegram_gcloner" folder.<br>
 	->Website provides direct download link, so you can also use Command-line to download Gclone.<br>
+	->Website provides direct download link, so you can also use Command-line to download Gclone.<br>
 	Linux:<br>
 	-><code>curl download_link_here >> telegram_gcloner/gclone</code><br>
 	Windows:<br>
-	-><code>curl download_link_here >> telegram_gcloner/gclone.exe</code>
+	-><code>sudo wget https://github.com/ivanarya007/CloneBot_V2/blob/main/telegram_gcloner/gclone </code>
 </b></p>
 <h4><b>5.Edit <code>Config.ini</code> file</b></h4>
 <p><b>
