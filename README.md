@@ -31,6 +31,7 @@
 <h2><b>🆕 What's New!</b></h2>
 <p><b>1.Gclone upgraded to v1.59.0 (latest)!😉</b></p>
 <p><b>2.Base Image changed to Ubuntu 22.04</b></p>
+<p><b>3.Updated <code>Filters.group</code> to <code>Filters.chat_type.groups</code> as well as <code>Filters.private</code> to <code>Filters.chat_type.private</code></b> to support Python 3.10</p>
 <p><b><a href="www.github.com/TheCaduceus/CloneBot_V2/releases">Show Full Update history</a></b></p>
 <!---NOTICE--->
 <h2><b>⛔ NOTICE</b></h2>
@@ -39,6 +40,7 @@
 <p><b>3.VPS or your local machine (PC or Laptop or Mobile) should have <code>Python 3</code> and <code>Git</code> installed in order to run CloneBot V2.</b></p>
 <p><b>4.CloneBot V2 don't use your bandwidth or Internet connection while cloning data but it can if hosted on your local machine or VPS for calling required Telegram APIs to update the progress or to generate required response.</b></p>
 <p><b>5.This Project comes with GNU License, please consider reading it before using this.</b></p>
+<p><b>6.Name of zip file should be only <code>accounts.zip</code> and it should only contain <code>.json</code> files not folders!</b></p>
 <!---Deployment--->
 <h2><b>⚙️ How to use?</b></h2>
 <p><b>CloneBot V2 is very straight forward and easy to use bot. If you deployed your CloneBot V2 then consider adding commands in it through <a href="https://t.me/BotFather">@BotFather</a> to make it easy for other users to know bot commands, here is the <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Commands.md" alt="Command-list">commands list</a> to be set in <a href="https://t.me/BotFather">@BotFather</a>:</b></p>
