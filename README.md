@@ -73,13 +73,24 @@
 <img src="https://user-images.githubusercontent.com/87380104/180258551-4bbd0802-0655-4ec1-97e8-32aa46dce184.png">
 <p><b>⛔NOTE: Shared Drive is a temporary storage! use it carefully and keep backup of your data always with you.</b></p>
 <h2><b>🐍Python with PIP Installation</b></h2>
-<p><b>Generally, I seen people! blindly running and ignoring options provided by Setup for installing Python and PIP which is most important thing to make <a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">Service Accounts</a> or to run CloneBot V2. People like it are just there to flood out support chat and abuse moderators too! Hence I made this Section to tackle this special disease. Lets name this disease Setup-Blindness😂</b></p>
+<p><b>Generally, I seen people, blindly running and ignoring options provided by Setup for installing Python and PIP which is most important thing to make <a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">Service Accounts</a> or to run CloneBot V2. People like it are just there to flood out support chat and abuse moderators too! Hence I made this Section to tackle this special disease. Lets name this disease Setup-Blindness😂</b></p>
 <h4><b>1.Run the Python Setup again and click <code>Customize Installation</code>:</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/180266218-8a8f822f-d7f6-4896-862c-ffa196d7cdee.png">
 <h4><b>2.Now select all options as shown in the image and click <code>Next</code>.</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/180266623-ae7ef39f-6c0a-4ea1-8b9c-8d2d1f041cfd.png">
 <h4><b>3.Again! choose following options and click <code>Install</code> and you done it!</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/180266946-ed1bc4e3-2b9a-47c5-83ea-45445d04cadb.png">
+<h4><b>4.Above steps solves below Errors:</b></h4>
+<p><b><code>'python3' is not recognized as an internal or external command,
+operable program or batch file.</code></b></p>
+<p><b><code>'python' is not recognized as an internal or external command,
+operable program or batch file.</code></b></p>
+<p><b><code>'py' is not recognized as an internal or external command,
+operable program or batch file.</code></b></p>
+<p><b><code>'pip3' is not recognized as an internal or external command,
+operable program or batch file.</code></b></p>
+<p><b><code>'pip' is not recognized as an internal or external command,
+operable program or batch file.</code></b></p>
 <h4><b>⛔NOTE: One dose is sufficient to cure this! Don't take it personally.😂</b></h4>
 <h2><b>🕹️Deployment</b></h2>
 <p><b>Deployment of CloneBot V2 is as simple as its usage! Their are many methods listed below to deploy CloneBot easily, but before you deploy it, you need some values listed below and how to get it:</b></p>
