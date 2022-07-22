@@ -11,3 +11,4 @@
 <img src="https://user-images.githubusercontent.com/87380104/176394414-6c94dae1-d80d-486d-b406-3dc217b37832.png">
 <h4><b>5.Your Docker Image is now ready to be used, check out your Repository's <code>Packages</code> to know how to use it.😊</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/176394861-8d0567c2-96ec-4b5b-a5cf-ef20f409489d.png">
+<p><b>⛔NOTE: Use your own Docker Image for deploying on VPS only! Using it for deploying platforms like Heroku will simply cause Account suspension.</b></p>
