@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 def init(dispatcher: Dispatcher):
     """Provide handlers initialization."""
     dispatcher.add_handler(
-        MessageHandler(Filters.group & Filters.chat(config.GROUP_IDS) &
+        MessageHandler(Filters.chat_type.groups & Filters.chat(config.GROUP_IDS) &
                        (Filters.text | Filters.caption) &
                        ~Filters.update.edited_message,
                        process_message))
@@ -26,7 +26,7 @@ def init(dispatcher: Dispatcher):
                        ~Filters.update.edited_message,
                        process_message_from_authorised_user))
     dispatcher.add_handler(
-        MessageHandler((~Filters.group) &
+        MessageHandler((~Filters.chat_type.groups) &
                        (Filters.text | Filters.caption) &
                        ~Filters.update.edited_message,
                        process_message))
