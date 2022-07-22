@@ -2,8 +2,8 @@
 FROM ubuntu:latest
 
 # Change as per VPS
-WORKDIR 
-RUN chmod 
+WORKDIR /usr/src/app
+RUN chmod 777 /usr/src/app
 
 # Non interactive or as per choice
 ENV TZ=Asia/Kolkata
