@@ -13,7 +13,7 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-notice">⛔ NOTICE</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-how-to-use">⚙️ How to use?</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Commands.md">->🔩Commands for BotFather</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#making-shared-drive">🫙Making Shared Drive</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-service-accounts">🫙Shared Drive</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#using-website">->🌐Using Website</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#using-telegram-bot">->🤖Using Telegram Bot</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#python-with-pip-installation">🐍Python with PIP Installation</a></b></p>
@@ -45,10 +45,11 @@
 <p><b>4.CloneBot V2 don't use your bandwidth or Internet connection while cloning data but it can if hosted on your local machine or VPS for calling required Telegram APIs to update the progress or to generate required response.</b></p>
 <p><b>5.This Project comes with GNU License, please consider reading it before using this.</b></p>
 <p><b>6.Name of zip file should be only <code>accounts.zip</code> and it should only contain <code>.json</code> files not folders!</b></p>
+<p><b>7.Use your own Docker Image for deploying on VPS or local machine! using your own Docker Image for deploying on platforms like Heroku, Okteto or Scalingo will cause Account to be suspended. In that case use Repository's official Docker Image.</b></p>
 <!---Deployment--->
 <h2><b>⚙️ How to use?</b></h2>
 <p><b>CloneBot V2 is very straight forward and easy to use bot. If you deployed your CloneBot V2 then consider adding commands in it through <a href="https://t.me/BotFather">@BotFather</a> to make it easy for other users to know bot commands, here is the <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Commands.md" alt="Command-list">commands list</a> to be set in <a href="https://t.me/BotFather">@BotFather</a>:</b></p>
-<h4><b>1.First convert accounts folder of your Service Accounts into <code>accounts.zip</code> then send it to bot and write <code>/sa</code> in caption or send <code>/sa</code> as reply to <code>accounts.zip</code> file. Don't have Service Accounts? <a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">Learn here</a> how to create</b></h4>
+<h4><b>1.First convert accounts folder of your Service Accounts into <code>accounts.zip</code> then send it to bot and write <code>/sa</code> in caption or send <code>/sa</code> as reply to <code>accounts.zip</code> file. Don't have Service Accounts? <a href="https://github.com/TheCaduceus/CloneBot_V2#-service-accounts">Learn here</a> how to create</b></h4>
 <h4><b>2.Now Send <code>/folders</code> to your CloneBot V2 and then bot will show Shared Drives name in which you added your Service Accounts's Google Group, select Shared Drive or directory available in it as destination. Not added Service Accounts in Google Group? <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">Learn here</a> how to do.</b></h4>
 <h4><b>3.Your CloneBot V2 is now ready to be used! just send any Google Drive sharing link and select the Destination folder you set before to clone data in it.</b></h4>
 <h4><b>4.Additionally, <code>/ban</code> and <code>/unban</code> command is to unauthorize or authorize user again and <code>/id</code> command is to get your Telegram User ID.</b></h4>
@@ -73,7 +74,7 @@
 <img src="https://user-images.githubusercontent.com/87380104/180258551-4bbd0802-0655-4ec1-97e8-32aa46dce184.png">
 <p><b>⛔NOTE: Shared Drive is a temporary storage! use it carefully and keep backup of your data always with you.</b></p>
 <h2><b>🐍Python with PIP Installation</b></h2>
-<p><b>Generally, I seen people, blindly running and ignoring options provided by Setup for installing Python and PIP which is most important thing to make <a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">Service Accounts</a> or to run CloneBot V2. People like it are just there to flood out support chat and abuse moderators too! Hence I made this Section to tackle this special disease. Lets name this disease Setup-Blindness😂</b></p>
+<p><b>Generally, I seen people, blindly running and ignoring options provided by Setup for installing Python and PIP which is most important thing to make <a href="https://github.com/TheCaduceus/CloneBot_V2#-service-accounts">Service Accounts</a> or to run CloneBot V2. People like it are just there to flood out support chat and abuse moderators too! Hence I made this Section to tackle this special disease. Lets name this disease Setup-Blindness😂</b></p>
 <h4><b>1.Run the Python Setup again and click <code>Customize Installation</code>:</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/180266218-8a8f822f-d7f6-4896-862c-ffa196d7cdee.png">
 <h4><b>2.Now select all options as shown in the image and click <code>Next</code>.</b></h4>
@@ -84,6 +85,8 @@
 <p><b><code>'python3' is not recognized as an internal or external command,
 operable program or batch file.</code></b></p>
 <p><b><code>'python' is not recognized as an internal or external command,
+operable program or batch file.</code></b></p>
+<p><b><code>'py3' is not recognized as an internal or external command,
 operable program or batch file.</code></b></p>
 <p><b><code>'py' is not recognized as an internal or external command,
 operable program or batch file.</code></b></p>
@@ -133,7 +136,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>3.Want to build own docker image? alright! <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/.github/workflows/Docker-Build-Guide.md" alt="Build Docker Guide">here</a> is the guide.</b></h4>
 <p><b>⛔NOTE:</b></p>
 <p><b>1.Docker Image only accepts <code>CONFIG_FILE_URL</code></b></p>
-<p><b>2.Use your own Docker Image for deploying on VPS only! Using it for deploying platforms like Heroku will simply cause Account suspension.</b></p>
+<p><b>2.Use your own Docker Image for deploying on VPS only! Using it for deploying ON platforms like Heroku, Okteto or Scalingo will simply cause Account suspension.</b></p>
 <!---Heroku--->
 <h3><b>⚡Deploy on Heroku</b></h3>
 <p><b>Heroku is very famous PaaS (Platform as a Service) platform and it provides very simple user environment as well as you can deploy CloneBot V2 very quickly on Heroku to run it continuously for 24 Hours.</b></p>
@@ -213,8 +216,8 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 </b></p>
 <h4><b>5.Edit <code>Config.ini</code> file</b></h4>
 <p><b>
-	->Open <code>config.ini</code> file in any text editor and enter the values of variables as <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeployment">written here</a><br>
-	<br>Or you can download your <code>config.ini</code> file from external source using <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">CONFIG_FILE_URL</a> by using Command-line:<br>
+	->Open <code>Config.ini</code> file in any text editor and enter the values of variables as <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeployment">written here</a><br>
+	<br>Or you can download your <code>Config.ini</code> file from external source using <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">CONFIG_FILE_URL</a> by using Command-line:<br>
 	-><code>curl CONFIG_FILE_URL >> telegram_gcloner/config.ini</code>
 </b></p>
 <h4><b>6.Start CloneBot V2:</b></h4>
@@ -236,7 +239,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>CloneBot V2 is also deployable to Scalingo cloud, Just deploy <code>Scalingo</code> Branch.</b></p>
 <p><b>Switch to <a href="https://github.com/TheCaduceus/CloneBot_V2/tree/Scalingo">Scalingo Branch</a> for guide.</b></p>
 <!---Creating Service Accounts--->
-<h2><b>🪪 Making Service Accounts</b></h2>
+<h2><b>🪪 Service Accounts</b></h2>
 <p><b>Service Accounts are just like normal Google Account and thus have same Upload or Download limits as Google Account which is 750GB Upload and 10TB Download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive limits by creating them in a bulk amount. After creating Service Accounts, we have to add them in Google Group so that we can directly add Google Group's Email ID in Shared Drive at place of adding each Service Accounts manually.</b></p>
 <h3><b>🛠️ Create Service Accounts</b></h3>
 <h4><b>1.First go to <a href="https://console.cloud.google.com/welcome">Google Cloud Console</a> and select "Create or select a project" then click "CREATE PROJECT" as shown in the image.</b></h4>
@@ -332,6 +335,6 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 	<a href="#">Zero-The-Kamisama</a>: To making MsGsuite discover this amazing bot and the detailed instructions.<br>
 	<a href="https://t.me/zorgof">zorgof</a>: For the termux script.<br>
 	<a href="https://github.com/aishik2005">Aishik Tokdar</a>: For Adding Guide to Deploy on Railway.app , Qovery , Clever Cloud , Scalingo and some other Code Improvements.Also Added Heroku Workflow Deployment Method.<br>
-	<a href="https://github.com/tiararosebiezetta">Katarina</a>: For adding the ability to be deployed to Clever Cloud and Scanlingo.<br>
+	<a href="https://github.com/tiararosebiezetta">Katarina</a>: For adding the ability to be deployed to Clever Cloud and Scalingo.<br>
 	<a href="https://github.com/missemily2022">Miss Emily</a>: For adding Support of Okteto Cloud Deployment as well as improving little layout.
 </b></p>
