@@ -53,7 +53,10 @@
 <h4><b>2.Now Send <code>/folders</code> to your CloneBot V2 and then bot will show Shared Drives name in which you added your Service Accounts's Google Group, select Shared Drive or directory available in it as destination. Not added Service Accounts in Google Group? <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">Learn here</a> how to do.</b></h4>
 <h4><b>3.Your CloneBot V2 is now ready to be used! just send any Google Drive sharing link and select the Destination folder you set before to clone data in it.</b></h4>
 <h4><b>4.Additionally, <code>/ban</code> and <code>/unban</code> command is to unauthorize or authorize user again and <code>/id</code> command is to get your Telegram User ID.</b></h4>
-<p><b>⛔NOTE: Each allowed user have to upload their own <code>accounts.zip</code> to use CloneBot_V2.</b></p>
+<p><b>⛔NOTE: Each allowed user have to upload their own <code>accounts.zip</code> to use CloneBot V2.</b></p>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/87380104/180602955-ecf149f9-91a8-43c1-9730-962be45c22b9.png">
+</div>
 <h2><b>🫙Making Shared Drive</b></h2>
 <p><b>CloneBot V2 comes with the ability to clone data between My Drive to Shared Drive or Shared Drive to Shared Drive, but in both case Shared Drive is common & required! So lets see how we can create our own Shared Drive for free to use them with CloneBot V2.</b></p>
 <h4><b>First visit MsGsuite's <a href="https://msgsuite.eu.org">Shared Drive Generator</a> Website or you can also use MsGsuite Shared Drive Generator <a href="https://t.me/MSGuite_SD_Creator_Bot">Telegram Bot</a> to create Shared Drive.</b></h4>
