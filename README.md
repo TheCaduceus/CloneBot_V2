@@ -61,7 +61,7 @@
 <h4><b>1.Open Website and provide details stated below:</b></h4>
 <p><b><code>Shared Drive Name</code>: Enter Name which you want to give to your Shared Drive. It can be anything but avoid using Emojis to prevent UTF-8 Errors</b></p>
 <p><b><code>Gmail ID</code>: Enter your Google Account's Email ID for which you want to create Shared Drive.</b></p>
-<p><b><code>Domain Selection</code>: Using drop-down list, select a working through which you want to create Shared Drive, or if you are not sure then keep it as <code>Random</code>.</b></p>
+<p><b><code>Domain Selection</code>: Using drop-down list, select a working domain through which you want to create Shared Drive, or if you are not sure then keep it as <code>Random</code>.</b></p>
 <img src="https://user-images.githubusercontent.com/87380104/180253709-a8c8f8b9-8f17-4837-adc8-6ecead61f42a.png">
 <h4><b>2.Once done! Solve hcaptcha to prove that you are human and then click <code>CREATE</code>.</b></h4>
 <h4><b>3.After creating, add Google Group of your Service Accounts in that Shared Drive to use it with CloneBot V2. Don't know how to? <a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">Learn Here</a></b></h4>
