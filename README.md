@@ -13,7 +13,7 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-notice">⛔ NOTICE</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-how-to-use">⚙️ How to use?</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Commands.md">->🔩Commands for BotFather</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-service-accounts">🫙Shared Drive</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-service-accounts">🫙 Making Shared Drive</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#using-website">->🌐Using Website</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#using-telegram-bot">->🤖Using Telegram Bot</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#python-with-pip-installation">🐍Python with PIP Installation</a></b></p>
