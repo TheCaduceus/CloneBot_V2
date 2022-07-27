@@ -5,10 +5,13 @@ FROM ubuntu:latest
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 
-# Non interactive or as per choice
-ENV TZ=Asia/Kolkata
-RUN ln -snf "/usr/share/zoneinfo/$TZ" /etc/localtime
-RUN echo "$TZ" > /etc/timezone
+# Make Non-Interactive
+# ENV DEBIAN_FRONTEND="noninteractive"
+
+# Or Add Time Zone
+# ENV TZ= # Add Zone Here
+# RUN ln -snf "/usr/share/zoneinfo/$TZ" /etc/localtime
+# RUN echo "$TZ" > /etc/timezone
 
 RUN apt-get update
 RUN apt-get install -y tzdata
