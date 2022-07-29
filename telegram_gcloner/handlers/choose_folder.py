@@ -55,19 +55,24 @@ def chosen_folder(update, context):
     try:
         gd = GoogleDrive(update.effective_user.id)
     except Exception as e:
-        context.bot.send_message(chat_id=update.effective_user.id,
-                                 text='🔸 Please make sure the SA archive has been uploaded followed by /sa and the Destination Favourite Folder has been configured. 🔸\n'
-                                      '<code>{}</code>'.format(html.escape(str(e))),
-                                 parse_mode=ParseMode.HTML)
+        context.bot.send_message(
+            chat_id=update.effective_user.id,
+            text=f'🔸 Please make sure the SA archive has been uploaded followed by /sa and the Destination Favourite Folder has been configured. 🔸\n<code>{html.escape(str(e))}</code>',
+            parse_mode=ParseMode.HTML,
+        )
+
         return
 
     query = update.callback_query
-    match = re.search(r'^{},(?P<folder_id>[\dA-Za-z\-_]+)$'.format(callback_query_prefix), query.data)
+    match = re.search(
+        f'^{callback_query_prefix},(?P<folder_id>[\dA-Za-z\-_]+)$', query.data
+    )
+
     if not match:
         alert_users(context, update.effective_user, 'invalid query', query.data)
         query.answer(text='Yo-he!', show_alert=True)
         return
-    folder_id = match.group('folder_id')
+    folder_id = match['folder_id']
 
     drive_ids_replace = context.user_data.get(udkey_fav_folders_replace, None)
     favourite_drive_ids = context.user_data.get(udkey_folders, {})
@@ -90,7 +95,7 @@ def chosen_folder(update, context):
         context.dispatcher.update_persistence()
         set_folders(update, context)
     else:
-        query.answer(text='Maximum {}'.format(max_folders), show_alert=True)
+        query.answer(text=f'Maximum {max_folders}', show_alert=True)
     return
 
 

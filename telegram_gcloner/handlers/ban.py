@@ -22,8 +22,7 @@ def init(dispatcher: Dispatcher):
 @restricted_admin
 def ban(update: Update, context: CallbackContext):
     if not context.args:
-        ban_list = context.bot_data.get('ban', None)
-        if ban_list:
+        if ban_list := context.bot_data.get('ban', None):
             update.message.reply_text('\n'.join(map(str, ban_list)))
         return
     if not context.args[0].isdigit:
@@ -40,14 +39,13 @@ def ban(update: Update, context: CallbackContext):
         update.message.reply_text('✔️ User Already banned.')
         return
     context.dispatcher.update_persistence()
-    tasks = thread_pool.get(user_id, None)
-    if tasks:
+    if tasks := thread_pool.get(user_id, None):
         for t in tasks:
             t.kill()
-            logger.debug('Task {} was stopped due to user {} is banned.'.format(t.ident, user_id))
+            logger.debug(f'Task {t.ident} was stopped due to user {user_id} is banned.')
             break
     update.message.reply_text('✅ User successfully banned!')
-    logger.info('{} is banned.'.format(user_id))
+    logger.info(f'{user_id} is banned.')
     return
 
 
@@ -63,8 +61,8 @@ def unban(update: Update, context: CallbackContext):
         context.bot_data['ban'] = new_ban
         context.dispatcher.update_persistence()
         update.message.reply_text('✅ User successfully removed from banned users list')
-        logger.info('{} is unbanned.'.format(user_id))
-        return
+        logger.info(f'{user_id} is unbanned.')
     else:
         update.message.reply_text('✖️ User is not banned before.')
-        return
+
+    return

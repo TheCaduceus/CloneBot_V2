@@ -72,9 +72,7 @@ def process_message_from_authorised_user(update, context):
 def process_message(update, context):
     if not update.message:
         return
-    if update.message.chat_id == config.USER_IDS[0]:
-        pass
-    else:
+    if update.message.chat_id != config.USER_IDS[0]:
         logger.debug(update.message)
         if update.message.caption:
             text_urled = update.message.caption_html_urled

@@ -21,8 +21,7 @@ def init(dispatcher: Dispatcher):
 @restricted_admin
 def vip(update: Update, context: CallbackContext):
     if not context.args:
-        vip_list = context.bot_data.get('vip', None)
-        if vip_list:
+        if vip_list := context.bot_data.get('vip', None):
             update.message.reply_text('\n'.join(map(str, vip_list)))
         return
     if not context.args[0].isdigit:
@@ -40,7 +39,7 @@ def vip(update: Update, context: CallbackContext):
         return
     context.dispatcher.update_persistence()
     update.message.reply_text('User added successfully to VIP Users List.')
-    logger.info('{} is added successfully to VIP Users List.'.format(user_id))
+    logger.info(f'{user_id} is added successfully to VIP Users List.')
     return
 
 
@@ -56,8 +55,8 @@ def unvip(update: Update, context: CallbackContext):
         context.bot_data['vip'] = new_vip
         context.dispatcher.update_persistence()
         update.message.reply_text('Removed from VIP.')
-        logger.info('{} is successfully removed from VIP Users List.'.format(user_id))
-        return
+        logger.info(f'{user_id} is successfully removed from VIP Users List.')
     else:
         update.message.reply_text('Could not find User in VIP Users List.')
-        return
+
+    return

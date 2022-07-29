@@ -60,13 +60,13 @@ class _Config:
                 logger.warning('Gclone Executable was not found in the Drectory.')
                 input("Press Enter to continue...")
                 sys.exit(0)
-        logger.info('Found gclone: ' + self._path_to_gclone)
+        logger.info(f'Found gclone: {self._path_to_gclone}')
 
         if not self._telegram_token:
             logger.warning('Telegram Bot Token not found.')
             input("Press Enter to continue...")
             sys.exit(0)
-        logger.info('Found Bot Token: ' + self._telegram_token)
+        logger.info(f'Found Bot Token: {self._telegram_token}')
 
         if self._gclone_para_override:
             self._gclone_para_override = self._gclone_para_override.split()
@@ -82,11 +82,11 @@ class _Config:
             else:
                 raise TypeError
             if not optional and not value and value is not False:
-                logger.warning('{} is not provided.'.format(item))
+                logger.warning(f'{item} is not provided.')
                 input("Press Enter to continue...")
                 sys.exit(1)
-            logger.info('Found {}: {}'.format(item, value))
-            setattr(self, '_' + item, value)
+            logger.info(f'Found {item}: {value}')
+            setattr(self, f'_{item}', value)
 
     @property
     def PATH_TO_GCLONE(self):
