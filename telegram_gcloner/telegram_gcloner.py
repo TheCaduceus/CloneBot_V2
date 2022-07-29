@@ -57,10 +57,7 @@ class MQBot(telegram.bot.Bot):
                 chat_id = kwargs["chat_id"]
             elif len(args) > 0:
                 chat_id = args[0]
-            if type(chat_id) is str:
-                is_group = True
-            else:
-                is_group = (chat_id < 0)
+            is_group = True if type(chat_id) is str else (chat_id < 0)
             return method(self, *args, **kwargs, isgroup=is_group)
 
     @mq.queuedmessage
@@ -105,10 +102,13 @@ def main():
     config.load_config()
     config.LOG_FILE = log_file
 
-    telegram_pickle = PicklePersistence(filename='pickle_{}'.format(config.USER_IDS[0]),
-                                        store_bot_data=True,
-                                        store_user_data=True,
-                                        store_chat_data=False)
+    telegram_pickle = PicklePersistence(
+        filename=f'pickle_{config.USER_IDS[0]}',
+        store_bot_data=True,
+        store_user_data=True,
+        store_chat_data=False,
+    )
+
     q = mq.MessageQueue()
     request = TGRequest(con_pool_size=8)
     my_bot = MQBot(config.TELEGRAM_TOKEN, request=request, mqueue=q)
@@ -135,7 +135,7 @@ def init_logger():
     this_file_name = os.path.basename(os.path.splitext(os.path.basename(__file__))[0])
 
     Path('./logs/').mkdir(parents=True, exist_ok=True)
-    logfile = './logs/' + this_file_name
+    logfile = f'./logs/{this_file_name}'
 
     file_logger = handlers.TimedRotatingFileHandler(logfile, encoding='utf-8', when='midnight')
     file_logger.suffix = "%Y-%m-%d.log"
@@ -171,8 +171,8 @@ def load_handlers(dispatcher: Dispatcher):
 
             module = import_module(f'.{handler_module}', 'handlers')
             module.init(dispatcher)
-            logger.info('loaded handler module: {}'.format(handler_module))
-    module = import_module(f'.process_message', 'handlers')
+            logger.info(f'loaded handler module: {handler_module}')
+    module = import_module('.process_message', 'handlers')
     module.init(dispatcher)
     logger.info('loaded handler module: process_message')
 
@@ -206,9 +206,8 @@ def error(update, context):
 
     context_error = str(context.error)
     # lets put this in a "well" formatted text
-    text = f"Hey.\n The error <code>{html.escape(context_error)}</code> happened{str(payload)}. " \
-           f"The full traceback:\n\n<code>{html.escape(str(trace))}" \
-           f"</code>"
+    text = f"Hey.\n The error <code>{html.escape(context_error)}</code> happened{str(payload)}. The full traceback:\n\n<code>{html.escape(trace)}</code>"
+
 
     # ignore message is not modified error from telegram
     if 'Message is not modified' in context_error:
