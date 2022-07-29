@@ -51,7 +51,7 @@ def parse_entity_for_drive_id(message):
 
         logger.debug('Found {0} with folder_id {1}.'.format(name, folder_id))
 
-    if len(folder_ids) == 0:
+    if not folder_ids:
         logger.debug('Cannot find any legit folder id.')
         return None
     return folder_ids
@@ -70,26 +70,35 @@ def process_drive_links(update, context):
     try:
         gd = GoogleDrive(update.effective_user.id)
     except Exception as e:
-        update.message.reply_text('🔸 Please make sure the SA archive has been uploaded and the collection folder has been configured. 🔸\n{}'.format(e))
+        update.message.reply_text(
+            f'🔸 Please make sure the SA archive has been uploaded and the collection folder has been configured. 🔸\n{e}'
+        )
+
         return
 
     for item in folder_ids:
         try:
             folder_name = gd.get_file_name(item)
         except Exception as e:
-            update.message.reply_text('🔸 Please make sure that the SA archive has been uplaoded and yuor SA have rights to read files from the Source Link. 🔸\n{}'.format(e))
-            return
-        message += '     <a href="https://drive.google.com/open?id={}">{}</a>\n'.format(
-            item, html.escape(folder_name))
-    message += '\n📂 Please select the Target Destination 📂'
-    fav_folder_ids = context.user_data.get(udkey_folders, None)
+            update.message.reply_text(
+                f'🔸 Please make sure that the SA archive has been uplaoded and yuor SA have rights to read files from the Source Link. 🔸\n{e}'
+            )
 
-    callback_query_prefix = 'save_to_folder'
-    page = 1
-    if fav_folder_ids:
-        page_data = []
-        for item in fav_folder_ids:
-            page_data.append({'text': simplified_path(fav_folder_ids[item]['path']), 'data': '{}'.format(item)})
+            return
+        message += f'     <a href="https://drive.google.com/open?id={item}">{html.escape(folder_name)}</a>\n'
+
+    message += '\n📂 Please select the Target Destination 📂'
+    if fav_folder_ids := context.user_data.get(udkey_folders, None):
+        page_data = [
+            {
+                'text': simplified_path(fav_folder_ids[item]['path']),
+                'data': f'{item}',
+            }
+            for item in fav_folder_ids
+        ]
+
+        callback_query_prefix = 'save_to_folder'
+        page = 1
         inline_keyboard_drive_ids = get_inline_keyboard_pagination_data(
             callback_query_prefix,
             page_data,
@@ -104,8 +113,6 @@ def process_drive_links(update, context):
 
 
 def save_to_folder_page(update, context):
-    callback_query_prefix = 'save_to_folder'
-
     query = update.callback_query
     if query.message.chat_id < 0 and \
             (not query.message.reply_to_message or
@@ -118,13 +125,18 @@ def save_to_folder_page(update, context):
         alert_users(context, update.effective_user, 'invalid query data', query.data)
         query.answer(text='Yo-he!', show_alert=True)
         return
-    page = int(match.group(1))
-    fav_folder_ids = context.user_data.get(udkey_folders, None)
+    page = int(match[1])
+    if fav_folder_ids := context.user_data.get(udkey_folders, None):
+        page_data = [
+            {
+                'text': simplified_path(fav_folder_ids[item]['path']),
+                'data': f'{item}',
+            }
+            for item in fav_folder_ids
+        ]
 
-    if fav_folder_ids:
-        page_data = []
-        for item in fav_folder_ids:
-            page_data.append({'text': simplified_path(fav_folder_ids[item]['path']), 'data': '{}'.format(item)})
+        callback_query_prefix = 'save_to_folder'
+
         inline_keyboard_drive_ids = get_inline_keyboard_pagination_data(
             callback_query_prefix,
             page_data,
@@ -147,26 +159,23 @@ def save_to_folder(update, context):
         return
     match = re.search(r'^save_to_folder(?:_page#[\d]+)?,\s*([\dA-Za-z\-_]+)$', query.data)
     fav_folders = context.user_data.get(udkey_folders, {})
-    if not match or match.group(1) not in fav_folders:
+    if not match or match[1] not in fav_folders:
         alert_users(context, update.effective_user, 'invalid query', query.data)
         query.answer(text='Yo-he!', show_alert=True)
         return
     message = query.message
-    if message.caption:
-        text = message.caption
-    else:
-        text = message.text
+    text = message.caption or message.text
     folder_ids = parse_entity_for_drive_id(message)
 
     if not folder_ids:
         return
-    dest_folder = fav_folders[match.group(1)]
-    dest_folder['folder_id'] = match.group(1)
+    dest_folder = fav_folders[match[1]]
+    dest_folder['folder_id'] = match[1]
     if not thread_pool.get(update.effective_user.id, None):
         thread_pool[update.effective_user.id] = []
     t = MySaveFileThread(args=(update, context, folder_ids, text, dest_folder))
     thread_pool[update.effective_user.id].append(t)
     t.start()
-    logger.debug('User {} has added task {}.'.format(query.from_user.id, t.ident))
+    logger.debug(f'User {query.from_user.id} has added task {t.ident}.')
     query.message.edit_reply_markup(reply_markup=InlineKeyboardMarkup(
         [[InlineKeyboardButton(text='Executed', callback_data='#')]]))

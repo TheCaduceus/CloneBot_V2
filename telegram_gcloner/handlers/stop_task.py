@@ -29,15 +29,13 @@ def stop_task(update, context):
         query.answer(text='Yo-he!', show_alert=True)
         return
     if query.data:
-        match = re.search(regex_stop_task, query.data)
-        if match:
-            thread_id = int(match.group(1))
-            tasks = thread_pool.get(update.effective_user.id, None)
-            if tasks:
+        if match := re.search(regex_stop_task, query.data):
+            thread_id = int(match[1])
+            if tasks := thread_pool.get(update.effective_user.id, None):
                 for t in tasks:
                     if t.ident == thread_id and t.owner == query.from_user.id:
                         t.kill()
-                        logger.info('User {} has stopped Cloning Task {}'.format(query.from_user.id, thread_id))
+                        logger.info(f'User {query.from_user.id} has stopped Cloning Task {thread_id}')
                         return
     alert_users(context, update.effective_user, 'invalid query data', query.data)
     query.answer(text='Yo-he!', show_alert=True)

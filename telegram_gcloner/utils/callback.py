@@ -12,4 +12,4 @@ def callback_delete_message(context: CallbackContext):
     try:
         context.bot.delete_message(chat_id=chat_id, message_id=message_id)
     except Exception as e:
-        logger.warning('Could not delete message {}: {}'.format(message_id, e))
+        logger.warning(f'Could not delete message {message_id}: {e}')
