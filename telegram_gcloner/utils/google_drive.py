@@ -50,17 +50,14 @@ class GoogleDrive:
                 drives = self.service.drives().list(**param).execute()
 
                 result.extend(drives['drives'])
-                logger.debug('Received {} drives'.format(len(drives['drives'])))
+                logger.debug(f"Received {len(drives['drives'])} drives")
                 page_token = drives.get('nextPageToken')
                 if not page_token:
                     break
             except errors.HttpError as error:
-                logger.warning('An error occurred: %s' % error)
+                logger.warning(f'An error occurred: {error}')
                 break
-        drive_dict = {}
-        for item in result:
-            drive_dict[item['id']] = item['name']
-        return drive_dict
+        return {item['id']: item['name'] for item in result}
 
     def get_file_name(self, file_id):
         param = {
@@ -89,11 +86,10 @@ class GoogleDrive:
             parent_entry = {'name': file_info['name'], 'folder_id': file_id}
         parent = file_info.get('parents', None)
         result.append(parent_entry)
-        if not parent:
-            logger.debug(str(result))
-            return result
-        else:
+        if parent:
             return self.get_file_path_from_id(parent[0], result)
+        logger.debug(str(result))
+        return result
 
     def get_drive_name(self, drive_id):
         param = {
@@ -109,37 +105,32 @@ class GoogleDrive:
         while True:
             try:
                 param = {
-                    'q': "'{}' in parents and "
-                         "mimeType = 'application/vnd.google-apps.folder' and "
-                         "trashed = false".format(folder_id),
+                    'q': f"'{folder_id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false",
                     'includeItemsFromAllDrives': True,
                     'supportsAllDrives': True,
                     'fields': 'nextPageToken, files(id, name)',
                     'pageSize': 1000,
                 }
+
                 if page_token:
                     param['pageToken'] = page_token
                 all_files = self.service.files().list(**param).execute()
 
                 result.extend(all_files['files'])
-                logger.debug('Received {} files'.format(len(all_files['files'])))
+                logger.debug(f"Received {len(all_files['files'])} files")
                 page_token = all_files.get('nextPageToken')
 
                 if not page_token:
                     break
             except errors.HttpError as error:
-                logger.info('An error occurred: %s' % error)
+                logger.info(f'An error occurred: {error}')
                 break
-        drive_dict = {}
         result_sorted = sorted(result, key=lambda k: k['name'])
-        for item in result_sorted:
-            drive_dict[item['id']] = item['name']
-        return drive_dict
+        return {item['id']: item['name'] for item in result_sorted}
 
     def get_folder_link(self, folder_id, folder_path):
         folder_path_list = list(filter(None, folder_path.split('/')))
-        result = self.get_folder_id_by_name(folder_id, folder_path_list[0])
-        if result:
+        if result := self.get_folder_id_by_name(folder_id, folder_path_list[0]):
             if len(folder_path_list) > 1:
                 for item in result:
                     next_result = self.get_folder_link(item['id'], '/'.join(folder_path_list[1:]))
@@ -147,8 +138,8 @@ class GoogleDrive:
                         return next_result
                 return None
             else:
-                link = r'https://drive.google.com/open?id={}'.format(result[0]['id'])
-                logger.info('found link: {}'.format(link))
+                link = f"https://drive.google.com/open?id={result[0]['id']}"
+                logger.info(f'found link: {link}')
                 return link
         return None
 
@@ -158,14 +149,13 @@ class GoogleDrive:
         while True:
             try:
                 param = {
-                    'q': r"name = '{}' and "
-                         r"mimeType = 'application/vnd.google-apps.folder' and "
-                         r"'{}' in parents and trashed = false".format(folder_name, folder_id),
+                    'q': f"name = '{folder_name}' and mimeType = 'application/vnd.google-apps.folder' and '{folder_id}' in parents and trashed = false",
                     'includeItemsFromAllDrives': True,
                     'supportsAllDrives': True,
                     'fields': 'nextPageToken, files(id, name)',
                     'pageSize': 1000,
                 }
+
                 if page_token:
                     param['pageToken'] = page_token
                 # logger.debug(str(param))
@@ -179,6 +169,6 @@ class GoogleDrive:
                 if not page_token:
                     break
             except errors.HttpError as error:
-                logger.info('An error occurred: %s' % error)
+                logger.info(f'An error occurred: {error}')
                 break
         return result
