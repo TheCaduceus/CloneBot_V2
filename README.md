@@ -36,6 +36,8 @@
 <p><b>1.Gclone upgraded to v1.59.0 (latest)!😉</b></p>
 <p><b>2.Base Image changed to Ubuntu 22.04</b></p>
 <p><b>3.Updated <code>Filters.group</code> to <code>Filters.chat_type.groups</code> as well as <code>Filters.private</code> to <code>Filters.chat_type.private</code> to support Python 3.10</b></p>
+<p><b>4.Resloved $PORT listening Errors in Okteto and other platforms</p>
+<p><b>5.Old Docker Image <code>ghcr.io/thecaduceus/clonebot_v2:main</code> is now no more supported and deprecated!</b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2/releases">Show Full Update history</a></b></p>
 <!---NOTICE--->
 <h2><b>⛔ NOTICE</b></h2>
@@ -133,10 +135,11 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h3><b>🐳Build or Deploy using Docker</b></h3>
 <p><b>CloneBot V2 can be deployed almost everywhere using Docker, either you can create your own Docker Image using Build Tool provided in the Workflow including <code>Docker-Code</code>. While CloneBot V2 also have ready to use Docker image for systems based on <code>Linux AMD 64</code>.</b></p>
 <h4><b>1.To pull CloneBot V2 Docker Image for <code>Linux AMD 64</code>:</b></h4>
-<p><b>-><code>docker pull ghcr.io/thecaduceus/clonebot_v2:main</code></b></p>
+<p><b>-><code>docker pull ghcr.io/thecaduceus/clonebot-v2:main</code></b></p>
 <h4><b>2.Or, to use as base Image:</b></h4>
-<p><b>-><code>FROM ghcr.io/thecaduceus/clonebot_v2:main</code></b></p>
-<h4><b>3.Want to build own docker image? alright! <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/.github/workflows/Docker-Build-Guide.md" alt="Build Docker Guide">here</a> is the guide.</b></h4>
+<p><b>-><code>FROM ghcr.io/thecaduceus/clonebot-v2:main</code></b></p>
+<h4><b>3.Old Docker Image <code>ghcr.io/thecaduceus/clonebot_v2:main</code> is now no more supported and deprecated!</b></h4>
+<h4><b>4.Want to build own docker image? alright! <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/.github/workflows/Docker-Build-Guide.md" alt="Build Docker Guide">here</a> is the guide.</b></h4>
 <p><b>⛔NOTE:</b></p>
 <p><b>1.Docker Image only accepts <code>CONFIG_FILE_URL</code></b></p>
 <p><b>2.Use your own Docker Image for deploying on VPS only! Using it for deploying ON platforms like Heroku, Okteto or Scalingo will simply cause Account suspension.</b></p>
