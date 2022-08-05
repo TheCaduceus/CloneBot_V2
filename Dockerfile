@@ -1,1 +1,1 @@
-FROM ghcr.io/thecaduceus/clonebot_v2:main
+FROM ghcr.io/thecaduceus/clonebot-v2:main
