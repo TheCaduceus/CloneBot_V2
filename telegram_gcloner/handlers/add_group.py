@@ -31,12 +31,12 @@ def add_group(update, context):
                                               html.escape(update.message.from_user.full_name))
         context.bot.send_message(
             chat_id=update.message.chat_id,
-            text=f'『{mention_html_from_user}』Thank you for adding this MsgSuite CloneBot bot to the group. {config.AD_STRING.format(context.bot.username)}',
+            text=f'『{mention_html_from_user}』Thank you for adding CloneBot V2. {config.AD_STRING.format(context.bot.username)}',
             parse_mode=ParseMode.HTML,
         )
 
-        context.bot.send_message(chat_id=update.message.chat_id, text='I am not authorized to be here 😔. \n So I am leaving this group. \n Ask my owner to allow me in your group.')
-        message = f'🔙 Left Uunauthorized Group : \n │ Name : {update.message.chat.title} ({update.message.chat_id}). \n │ Bot Added by{mention_html_from_user} {update.message.from_user.id}. \n │ Message : {update.message.text}'
+        context.bot.send_message(chat_id=update.message.chat_id, text='I am not allowed to be here 😔. \n So I am leaving this group. \n Ask my owner to allow me in this group.')
+        message = f'🔙 Left Unauthorized Group : \n │ Name : {update.message.chat.title} ({update.message.chat_id}). \n │ Bot Added by{mention_html_from_user} {update.message.from_user.id}. \n │ Message : {update.message.text}'
 
         context.bot.leave_chat(update.message.chat_id)
         logger.warning(message)
