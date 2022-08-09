@@ -36,7 +36,7 @@
 <p><b>1.Gclone upgraded to v1.59.0 (latest)!😉</b></p>
 <p><b>2.Base Image changed to Ubuntu 22.04</b></p>
 <p><b>3.CloneBot V2 is now confortable with Python 3.10.6</b></p>
-<p><b>4.Resloved $PORT listening Errors in Okteto and other platforms</p>
+<p><b>4.Resolved $PORT listening Errors in Okteto and other platforms</p>
 <p><b>5.Old Docker Image <code>ghcr.io/thecaduceus/clonebot_v2:main</code> is now no more supported and deprecated!</b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2/releases">Show Full Update history</a></b></p>
 <!---NOTICE--->
@@ -48,7 +48,7 @@
 <p><b>5.This Project comes with GNU License, please consider reading it before using this.</b></p>
 <p><b>6.Name of zip file should be only <code>accounts.zip</code> and it should only contain <code>.json</code> files not folders!</b></p>
 <p><b>7.Use your own Docker Image for deploying on VPS or local machine! using your own Docker Image for deploying on platforms like Heroku, Okteto or Scalingo will cause Account to be suspended. In that case use Repository's official Docker Image.</b></p>
-<p><b>8.Don't get confused! If you use <code>pip</code> to install <code>requirements.txt</code> then only use <code>py</code> or <code>python</code> to executing commands or in the same way if you use <code>pip3</code> then only use <code>python3</code>.</b></p>
+<p><b>8.Don't get confused! If you use <code>pip</code> to install <code>requirements.txt</code> then only use <code>py</code> or <code>python</code> for executing commands or in the same way if you use <code>pip3</code> then only use <code>python3</code>.</b></p>
 <!---Deployment--->
 <h2><b>⚙️ How to use?</b></h2>
 <p><b>CloneBot V2 is very straight forward and easy to use bot. If you deployed your CloneBot V2 then consider adding commands in it through <a href="https://t.me/BotFather">@BotFather</a> to make it easy for other users to know bot commands, here is the <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Commands.md" alt="Command-list">commands list</a> to be set in <a href="https://t.me/BotFather">@BotFather</a>:</b></p>
