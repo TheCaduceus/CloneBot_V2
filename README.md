@@ -48,6 +48,7 @@
 <p><b>5.This Project comes with GNU License, please consider reading it before using this.</b></p>
 <p><b>6.Name of zip file should be only <code>accounts.zip</code> and it should only contain <code>.json</code> files not folders!</b></p>
 <p><b>7.Use your own Docker Image for deploying on VPS or local machine! using your own Docker Image for deploying on platforms like Heroku, Okteto or Scalingo will cause Account to be suspended. In that case use Repository's official Docker Image.</b></p>
+<p><b>8.Don't get confused! If you use <code>pip</code> to install <code>requirements.txt</code> then only use <code>py</code> or <code>python</code> to executing commands or in the same way if you use <code>pip3</code> then only use <code>python3</code>.</b></p>
 <!---Deployment--->
 <h2><b>⚙️ How to use?</b></h2>
 <p><b>CloneBot V2 is very straight forward and easy to use bot. If you deployed your CloneBot V2 then consider adding commands in it through <a href="https://t.me/BotFather">@BotFather</a> to make it easy for other users to know bot commands, here is the <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Commands.md" alt="Command-list">commands list</a> to be set in <a href="https://t.me/BotFather">@BotFather</a>:</b></p>
@@ -287,7 +288,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>15.Now run following commands carefully in CMD one-by-one:</b></h4>
 <!---Commands--->
 <p><b>
-	1. <code>pip3 install -U -r requirements.txt</code> - To install requirements.<br>
+	1. <code>pip install -U -r requirements.txt</code> - To install requirements.<br>
 	2. <code>py gen_sa_accounts.py</code> - To get login URL.
 </b></p>
 <h4><b>16.Running command 2 will give you a Login URL, just copy & paste it in your URL and login using your Google Account and provide all asked permission.</b></h4>
@@ -303,7 +304,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 	6. <code>py gen_sa_accounts.py --download-keys PROJECT_ID</code> - To download Service Accounts file.<br>
 	7. <code>py rename_script.py</code> - To rename Service Accounts file in 1-100 sequence.
 </b></p>
-<p><b>⛔NOTE: Replace <Code>PROJECT_ID</code> with Project ID which you will get from command 3 and if commands not working then replace <code>py</code> with <code>python</code>.</b></p>
+<p><b>⛔NOTE: Replace <Code>PROJECT_ID</code> with Project ID which you will get from command 3 and if commands not working then replace <code>py</code> with <code>python</code> or <code>python3</code>.</b></p>
 <h4><b>18.Till now, We have created 100 Service Accounts but we have to do some more work before we take them in our use. Open folder which you created in STEP 11 and you will see <code>accounts</code> folder in it which have your 100 Service Accounts file (json files), now type "Powershell" in address bar of accounts folder or as an alternative you can use <code>cd</code> commands like <code>cd FOLDER_PATH</code> in Powershell.</b></h4>
 <img src="Img/24.png" alt="24">
 <h4><b>19.Done? Now run following command in Powershell:</b></h4>
