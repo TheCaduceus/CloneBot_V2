@@ -3,7 +3,6 @@
 	"description": "Powerful Telegram Bot to clone your data in Google Drive",
 	"repository": "https://github.com/TheCaduceus/CloneBot_V2",
 	"keywords": ["Rclone","Telegram","Gclone"],
-	"repository": "https://github.com/TheCaduceus/CloneBot_V2",
         "website": "https://t.me/msgsuitechat",
         "success_url": "https://github.com/TheCaduceus/CloneBot_V2/blob/master/README.md",
 	"env": {
