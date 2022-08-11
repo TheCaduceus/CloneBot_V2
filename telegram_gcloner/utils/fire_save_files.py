@@ -264,8 +264,8 @@ class MySaveFileThread(threading.Thread):
                 break
 
         message += '\n├ 🔥 CloneBot V2'
-                   '\n├ ©️ Made with ❤️ by Dr.Caduceus\n│'
-                   '\n╰──────⌈ ✅ Finished ⌋──────╯'
+        message += '\n├ ©️ Made with ❤️ by Dr.Caduceus\n│'
+        message += '\n╰──────⌈ ✅ Finished ⌋──────╯'
         try:
             context.bot.edit_message_text(chat_id=chat_id, message_id=message_id, text=message,
                                           parse_mode=ParseMode.HTML, disable_web_page_preview=True)
