@@ -16,10 +16,10 @@
 <p><b>You can also customize the behaviour of Docker Image Build tool as per your needs!😉</b></p>
 <h4><b>🔫 Trigger Customization:</b></h4>
 <p><b>To set the condition "When Workflow should be triggered?", you can use customize following code:</b></p>
-<img src="https://user-images.githubusercontent.com/87380104/183818955-3c7083ce-45a2-4d8b-990b-ead7e1958941.png">
+https://github.com/TheCaduceus/CloneBot_V2/blob/dbbd61dc0430a5bc8eda672ef4e123a9ee5c2794/.github/workflows/docker-publish.yml#L3-L12
 <p><b>by default, Workflow will be triggered only if user manually do it from <code>Actions</code> Tab otherwise if automatic workflow trigger is enabled then it will get triggered automatically when there is new commit (including Pull Request) in <code>main</code> branch which can be changed.</b></p>
 <h4><b>✏️ Environment Variables:</b></h4>
 <p><b>By setting environment variables you can change the Registry and Name of your Docker Image:</b></p>
-<img src="https://user-images.githubusercontent.com/87380104/183820651-c70785ed-0bd4-48e4-9ccc-758ee637c3ec.png">
+https://github.com/TheCaduceus/CloneBot_V2/blob/dbbd61dc0430a5bc8eda672ef4e123a9ee5c2794/.github/workflows/docker-publish.yml#L14-L18
 <p><b><code>REGISTRY</code>: Value can be <code>docker.io</code> or <code>ghcr.io</code>. If empty then <code>docker.io</code> will be used.</b></p>
 <p><b><code>IMAGE_NAME</code>: Value can be anything between <code>""</code> or by default it is <code>${{ github.repository }}</code> which automatically set Repository name + Branch Name as <code>IMAGE_NAME</code>.</b></p>
