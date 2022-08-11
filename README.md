@@ -33,12 +33,13 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fcredits--thanks">❤️Credits & Thanks</a></b></p>
 <!---ChangeLog--->
 <h2><b>🆕 What's New!</b></h2>
-<p><b>1.Gclone upgraded to v1.59.0 (latest)!😉</b></p>
-<p><b>2.Base Image changed to Ubuntu 22.04</b></p>
-<p><b>3.CloneBot V2 is now confortable with Python 3.10.6</b></p>
-<p><b>4.Resolved $PORT listening Errors in Okteto and other platforms</p>
-<p><b>5.Old Docker Image <code>ghcr.io/thecaduceus/clonebot_v2:main</code> is now no more supported and deprecated!</b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2/releases">Show Full Update history</a></b></p>
+<p><b>1.Gclone upgraded to v1.59.1 (latest)!😉</b></p>
+<p><b>2.UI Changes!🌟</b></p>
+<p><b>3.CloneBot V2 is now confortable with Python <code>3.10.6</code>🐍.</b></p>
+<p><b>4.Resolved $PORT listening Errors in Okteto and other platforms.⚙️</p>
+<p><b>5.Old Docker Image <code>ghcr.io/thecaduceus/clonebot_v2:main</code> is now no more supported and deprecated!🧹</b></p>
+<p><b>6.Lots of other fixes, changes and improvements which can be checked in <code>Changelog</code>.</b></p>
+<p><b>Full Changelog: <a href="https://github.com/TheCaduceus/CloneBot_V2/compare/V2.1.4...v2.2.9"><code>V2.1.4...v2.2.9</code></a></b></p>
 <!---NOTICE--->
 <h2><b>⛔ NOTICE</b></h2>
 <p><b>1.You may need account for Heroku/Okteto/Scalingo while deploying CloneBot V2 on respected platforms.</b></p>
