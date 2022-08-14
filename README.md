@@ -21,7 +21,6 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">->📄Getting CONFIG_FILE_URL</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#build-or-deploy-using-docker">->🐳Build or Deploy using Docker</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-heroku">->⚡Deploy on Heroku</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-using-github-actions">->🧿Deploy using GitHub Actions</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-okteto">->🪬Deploy on Okteto</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-deploy-on-vps-or-pc">->🖥️ Deploy on VPS or PC</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-termux">->📱Deploy on Termux</a></b></p>
@@ -135,8 +134,8 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 </b></p>
 <!---Docker--->
 <h3><b>🐳Build or Deploy using Docker</b></h3>
-<p><b>CloneBot V2 can be deployed almost everywhere using Docker, either you can create your own Docker Image using Build Tool provided in the Workflow including <code>Docker-Code</code>. While CloneBot V2 also have ready to use Docker image for systems based on <code>Linux AMD 64</code>.</b></p>
-<h4><b>1.To pull CloneBot V2 Docker Image for <code>Linux AMD 64</code>:</b></h4>
+<p><b>CloneBot V2 can be deployed almost everywhere using Docker, either you can create your own Docker Image using Build Tool provided in the Workflow including <code>Docker-Code</code>. While CloneBot V2 also have ready to use Docker image for systems based on <code>AMD 64</code>.</b></p>
+<h4><b>1.To pull CloneBot V2 Docker Image:</h4>
 <p><b>-><code>docker pull ghcr.io/thecaduceus/clonebot-v2:main</code></b></p>
 <h4><b>2.Or, to use as base Image:</b></h4>
 <p><b>-><code>FROM ghcr.io/thecaduceus/clonebot-v2:main</code></b></p>
@@ -148,21 +147,6 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <!---Heroku--->
 <h3><b>⚡Deploy on Heroku</b></h3>
 <p><b>Heroku is very famous PaaS (Platform as a Service) platform and it provides very simple user environment as well as you can deploy CloneBot V2 very quickly on Heroku to run it continuously for 24 Hours.</b></p>
-<h4><b>1.Press below CloneBot V2 deploy button for Heroku:</b></h4>
-<a href="https://heroku.com/deploy?template=https://github.com/TheCaduceus/CloneBot_V2"><img src="Img/Deploy-Button-Heroku.png" alt="Deploy on Heroku"></a>
-<h4><b>2.Enter Below Values:</b></h4>
-<p><b>
-	<code>App Name</code> - Give a unique name to your Bot.<br><br>
-	<code>CONFIG_FILE_URL</code> - Enter <code>CONFIG_FILE_URL</code> which you made <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">here</a>.
-</b></p>
-<img src="Img/36.png" alt="36">
-<h4><b>3.Click "Deploy" button and once it got deployed, click <code>Manage App</code> then go to <code>Resource Tab</code> and enable the dyno as shown in the image.</b></h4>
-<img src="Img/37.png" alt="37">
-<h4><b>3.Enjoy! Your CloneBot V2 is now deployed and you can freely use it.</b></h4>
-<p><b>⛔NOTE: Heroku provides 550 running hours (dyno hours) per month and it restarts deployed app each 24 Hours.</b></p>
-<!---GitHub-Actions-Heroku--->
-<h2><b>🧿Deploy using GitHub Actions</b></h2>
-<p><b>This method is really amazing and simple!🥰 You can deploy your CloneBot V2 on Heroku using GitHub Actions itself by just providing your <code>HEROKU API KEY</code> <code>HEROKU EMAIL</code> and <code>HEROKU APPNAME</code>.</b></p>
 <h4><b>1.First fork this repository, now open the settings of your Forked Repository and click <code>Secrets->Actions</code>.</b></h4>
 <img src="Img/44.png" alt="44">
 <h4><b>2.Then click "New repository secret" and create 4 secrets as stated below:</b></h4>
