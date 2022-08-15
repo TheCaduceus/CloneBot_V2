@@ -143,10 +143,31 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>4.Want to build own docker image? alright! <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/.github/workflows/Docker-Build-Guide.md" alt="Build Docker Guide">here</a> is the guide.</b></h4>
 <p><b>⛔NOTE:</b></p>
 <p><b>1.Docker Image only accepts <code>CONFIG_FILE_URL</code></b></p>
-<p><b>2.Use your own Docker Image for deploying on VPS only! Using it for deploying ON platforms like Heroku, Okteto or Scalingo will simply cause Account suspension.</b></p>
+<p><b>2.Use your own Docker Image for deploying on VPS only! Using it for deploying on platforms like Heroku, Okteto or Scalingo will simply cause Account suspension.</b></p>
+<h3><b>♦️Deploy on Clever Cloud</b></h3>
+<p><b>Clever Cloud is a Europe-based PaaS (Platform as a Service) company. They help developers deploy and run their apps with bulletproof infrastructure, automatic scaling as well as fair pricing. In my opinion! it is best choice to deploy CloneBot V2 on Clever Cloud because pricing is excellent & fair as well as you can run CloneBot V2 for days to clone large amount of data.</b></p>
+<h4><b>1.First log in on <a href="www.clever-cloud.com">Clever Cloud</a>.</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/184601649-db7a14f5-9eb0-4da8-8709-32f58a339c09.png">
+<h4><b>2.Now click on <code>Create</code> and then select <code>an application</code> from the list.</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/184602348-3165036a-bb54-47b1-8ec2-7a3e019c9333.png">
+<h4><b>3.Once you reach "Application Creation" page, choose "Create an application from GitHub repository" and select the CloneBot V2 Repository. Not visible? fork this!</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/184602864-f01c6b56-0fe5-4360-9e26-531e8aea2cef.png">
+<h4><b>4.Done? now specify the application type by choosing our beloved <code>Docker</code>.😘</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/184603233-e4427ea0-fce6-4420-85bf-4b4fb0660005.png">
+<h4><b>5.After that! directly click <code>Next</code> on "How many number of instances?" page and keep the number of instance only 1. Additionally, you can keep instance type to <code>Nano</code> which is most cheap because CloneBot V2 is designed to run on very low end systems.</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/184603755-cf8f55a6-2c41-4112-b24c-22fb36878479.png">
+<h4><b>6.Provide your instance a beautiful name, it can be "CloneBot V2" itself, and for instance location, you can choose <code>Paris France</code> for lower ping (tested!😉).</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/184604532-d1e3db06-1778-482c-a0d8-bd41cc5dbe1d.png">
+<h4><b>7.Now it will navigate to "Add-ons" page, simply click <code>I DON'T NEED ANY ADD-ONS</code> because... you already know it!🌟 still why? it is designed for low end systems.</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/184605060-83283c09-043b-475e-90ca-a9e4ad315a71.png">
+<h4><b>8.Then enter <code>CONFIG_FILE_URL</code> as variable name and the <code>CONFIG_FILE_URL</code> which you just made <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">here! and Clever Cloud will start deploying your instance.</a></b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/184605716-4dd3d534-b866-45fc-af43-39c0a11e7c2c.png">
+<h4><b>9.Finally! to check if CloneBot V2 is working perfectly, you can open the domain (it will display the guide) provided by Clever Cloud for your instance which can be collected from <code>Domain Names</code> tab and for logs you can check <code>Logs</code> tab.</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/184609344-9d32243c-f8d8-4b22-9ee1-1c8cec455b9e.png">
+
 <!---Heroku--->
 <h3><b>⚡Deploy on Heroku</b></h3>
-<p><b>Heroku is very famous PaaS (Platform as a Service) platform and it provides very simple user environment as well as you can deploy CloneBot V2 very quickly on Heroku to run it continuously for 24 Hours.</b></p>
+<p><b>Heroku is PaaS (Platform as a Service) company and it provides simple user environment as well as you can deploy CloneBot V2 on Heroku but I and including other developers not prefer these platform because of high price and low quality service and their AI will ban your account even if you use the provided resources judiciously. Additionally, they forcefully restart your deployed application (can cause serious conditions) each 24 hours which means you can only clone your data for 24 hours, so it is just wastage of time to even think about this platform.</b></p>
 <h4><b>1.First fork this repository, now open the settings of your Forked Repository and click <code>Secrets->Actions</code>.</b></h4>
 <img src="Img/44.png" alt="44">
 <h4><b>2.Then click "New repository secret" and create 4 secrets as stated below:</b></h4>
@@ -161,7 +182,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>⛔NOTE: Deploying as web? change <code>deploy.yml</code> (Docker Heroku Process Type) and add <code>PORT</code> as Repository secret, value can be <code>8080</code>.</b></p>
 <!---Okteto--->
 <h2><b>🪬Deploy on Okteto</b></h2>
-<p><b>Okteto is also very famous Kubernetes development platforms and used by many users and it is ideal for lightweight apps and it is perfect for CloneBot V2, Okteto don't have any running hours limit like Heroku but your CloneBot V2 will go to sleep if the ENDPOINT provided by Okteto for your CloneBot V2 untouched. Don't worry, I have solution too and some special arrangements.</b></p>
+<p><b>Okteto is Kubernetes development platforms and used by many users and it is ideal for lightweight apps and it is perfect for CloneBot V2, Okteto is worst than Heroku, your bot will sleep after 24 hours and will not get back to online until you ping the provided ENDPOINT.</b></p>
 <h4><b>1.First Create your Okteto Account, You need one GitHub account as okteto supports only one Method to either Create or Login:<a href="https://cloud.okteto.com/#/login" alt="Login on Okteto"> Create/Login on Okteto</a></b></h4>
 <img src="Img/38.png" alt="38">
 <h4><b>2.Now fork this repository, and go to Okteto Dashboard then press "Launch Dev Environment".</b></h4>
