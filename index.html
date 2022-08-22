@@ -88,7 +88,6 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">->📄Getting CONFIG_FILE_URL</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#build-or-deploy-using-docker">->🐳Build or Deploy using Docker</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeploy-on-clever-cloud">->♦️Deploy on Clever Cloud</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-heroku">->⚡Deploy on Heroku</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-okteto">->🪬Deploy on Okteto</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-deploy-on-vps-or-pc">->🖥️ Deploy on VPS or PC</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-termux">->📱Deploy on Termux</a></b></p>
@@ -232,22 +231,6 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <img src="https://user-images.githubusercontent.com/87380104/184605716-4dd3d534-b866-45fc-af43-39c0a11e7c2c.png">
 <h4><b>9.Finally! to check if CloneBot V2 is working perfectly, you can open the domain (it will display the guide) provided by Clever Cloud for your instance which can be collected from <code>Domain Names</code> tab and for logs you can check <code>Logs</code> tab.</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/184609344-9d32243c-f8d8-4b22-9ee1-1c8cec455b9e.png">
-
-<!---Heroku--->
-<h3><b>⚡Deploy on Heroku</b></h3>
-<p><b>Heroku is PaaS (Platform as a Service) company and it provides simple user environment as well as you can deploy CloneBot V2 on Heroku but I and including other developers not prefer these platform because of high price and low quality service and their AI will ban your account even if you use the provided resources judiciously. Additionally, they forcefully restart your deployed application (can cause serious conditions) each 24 hours which means you can only clone your data for 24 hours, so it is just wastage of time to even think about this platform.</b></p>
-<h4><b>1.First fork this repository, now open the settings of your Forked Repository and click <code>Secrets->Actions</code>.</b></h4>
-<img src="Img/44.png" alt="44">
-<h4><b>2.Then click "New repository secret" and create 4 secrets as stated below:</b></h4>
-<p><b>
-	<code>HEROKU_API_KEY</code> - Enter your Heroku API Key as value.<br><br>
-	<code>HEROKU_EMAIL</code> - Your Heroku Email ID.<br><br>
-	<code>HEROKU_APP_NAME</code> - A unique app name in small letters only.<br><br>
-	<code>CONFIG_FILE_URL</code> - <code>CONFIG_FILE_URL</code> you made above for Heroku deployment!
-</b></p>
-<h4><b>3.Go to Actions Tab then click <code>Deploy to Heroku</code> and <code>Run Workflow</code>. Now it will be automatically got deployed on given Heroku Account!😉</b></h4>
-<img src="Img/45.png" alt="45">
-<p><b>⛔NOTE: Deploying as web? change <code>deploy.yml</code> (Docker Heroku Process Type) and add <code>PORT</code> as Repository secret, value can be <code>8080</code>.</b></p>
 <!---Okteto--->
 <h2><b>🪬Deploy on Okteto</b></h2>
 <p><b>Okteto is Kubernetes development platforms and used by many users and it is ideal for lightweight apps and it is perfect for CloneBot V2, Okteto is worst than Heroku, your bot will sleep after 24 hours and will not get back to online until you ping the provided ENDPOINT.</b></p>
