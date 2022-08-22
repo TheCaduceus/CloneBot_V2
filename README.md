@@ -160,7 +160,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <img src="https://user-images.githubusercontent.com/87380104/184604532-d1e3db06-1778-482c-a0d8-bd41cc5dbe1d.png">
 <h4><b>7.Now it will navigate to "Add-ons" page, simply click <code>I DON'T NEED ANY ADD-ONS</code> because... you already know it!🌟 still why? it is designed for low end systems.</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/184605060-83283c09-043b-475e-90ca-a9e4ad315a71.png">
-<h4><b>8.Then enter <code>CONFIG_FILE_URL</code> as variable name and the <code>CONFIG_FILE_URL</code> which you just made <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">here! and Clever Cloud will start deploying your instance.</a></b></h4>
+<h4><b>8.Then enter <code>CONFIG_FILE_URL</code> as variable name and the <code>CONFIG_FILE_URL</code> which you just made <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">here!</a> and Clever Cloud will start deploying your instance.</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/184605716-4dd3d534-b866-45fc-af43-39c0a11e7c2c.png">
 <h4><b>9.Finally! to check if CloneBot V2 is working perfectly, you can open the domain (it will display the guide) provided by Clever Cloud for your instance which can be collected from <code>Domain Names</code> tab and for logs you can check <code>Logs</code> tab.</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/184609344-9d32243c-f8d8-4b22-9ee1-1c8cec455b9e.png">
