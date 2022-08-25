@@ -160,9 +160,9 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b><code>git clone https://github.com/TheCaduceus/CloneBot_V2</code></b></p>
 <h4><b>4.Now run following commands:</b></h4>
 <p><b>
-i.<code>cd CloneBot_V2</code> - To change directory.</br>
-ii.<code>fly auth login</code> - To login on Fly.io.</br>
-iii.<code>fly launch</code> - To configure basic things, like app name and data center as well as creating `fly.toml`.
+<code>cd CloneBot_V2</code> - To change directory.</br>
+<code>fly auth login</code> - To login on Fly.io.</br>
+<code>fly launch</code> - To configure basic things, like app name and data center as well as creating `fly.toml`.
 </b></p>
 <h4><b>5.Configure App:</b></h4>
 <p><b>1.For app name keep the field empty (Hit <code>Enter</code>), and for choosing data center! use arrow keys to select one. For attaching Postgres Database enter
@@ -171,7 +171,7 @@ iii.<code>fly launch</code> - To configure basic things, like app name and data 
 <p><b>2.Once you run the above command! it will automatically create <code>fly.toml</code> file, open the `fly.toml` file with any text editor and under <code>[env]</code> section put your <code>CONFIG_FILE_URL</code> which you created above!</b></p>
 <img src="https://user-images.githubusercontent.com/87380104/186635091-dcc791b7-cd43-44ed-a66a-3d6cec26320d.png">
 <p><b>3.Everything done! now run the final deploy command to deploy your app.</b></p>
-<p><b>iv.<code>fly deploy</code> - To deploy your app.</b></p>
+<p><b><code>fly deploy</code> - To deploy your app.</b></p>
 <h2><b>♦️Deploy on Clever Cloud</b></h2>
 <p><b>Clever Cloud is a Europe-based PaaS (Platform as a Service) company. They help developers deploy and run their apps with bulletproof infrastructure, automatic scaling as well as fair pricing. In my opinion! it is best choice to deploy CloneBot V2 on Clever Cloud because pricing is excellent & fair as well as you can run CloneBot V2 for days to clone large amount of data.</b></p>
 <p><b>⛔NOTICE: Before deploying/running CloneBot V2 on Clever Cloud! Don't forget to add payment method like credit card in your account to verify your account otherwise deploying and using CloneBot V2 on Clever Cloud will cause suspension of your app/account.</b></p>
