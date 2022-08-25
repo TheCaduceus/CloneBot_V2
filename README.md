@@ -1,4 +1,4 @@
-<h1 align ="center"><b>CloneBot V2 🔥</b></h1>
+<h1 align="center"><b>CloneBot V2 🔥</b></h1>
 <!---Introduction--->
 <p><b>CloneBot V2 is inspired from MsGsuite's CloneBot, which got out-dated and having too many errors in it. We both created it to keep the legacy of CloneBot alive! The bot who helped thousands for cloning their data.❤️</b></p>
 <p><b>1. The Powerful Telegram Bot based on Gclone to clone Google Drive's Shared Drive data easily.⚡</b></p>
@@ -41,7 +41,7 @@
 <p><b>Full Changelog: <a href="https://github.com/TheCaduceus/CloneBot_V2/compare/V2.1.4...v2.2.9"><code>V2.1.4...v2.2.9</code></a></b></p>
 <!---NOTICE--->
 <h2><b>⛔ NOTICE</b></h2>
-<p><b>1.You may need account for Heroku/Okteto/Scalingo while deploying CloneBot V2 on respected platforms.</b></p>
+<p><b>1.You may need account for Fly.io/Clever-Cloud/Okteto/Scalingo while deploying CloneBot V2 on respected platforms.</b></p>
 <p><b>2.Service Accounts are mandatory to use CloneBot V2, because it uses Service Accounts to prevent hitting 750GB Upload/Clone limit of Google Drive while cloning large amount of data.</b></p>
 <p><b>3.VPS or your local machine (PC or Laptop or Mobile) should have <code>Python 3</code> and <code>Git</code> installed in order to run CloneBot V2.</b></p>
 <p><b>4.CloneBot V2 don't use your bandwidth or Internet connection while cloning data but it can if hosted on your local machine or VPS for calling required Telegram APIs to update the progress or to generate required response.</b></p>
@@ -144,7 +144,34 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>⛔NOTE:</b></p>
 <p><b>1.Docker Image only accepts <code>CONFIG_FILE_URL</code></b></p>
 <p><b>2.Use your own Docker Image for deploying on VPS only! Using it for deploying on platforms like Heroku, Okteto or Scalingo will simply cause Account suspension.</b></p>
-<h3><b>♦️Deploy on Clever Cloud</b></h3>
+<h2><b>🕊️Deploy on Fly</b></h2>
+<p><b>Fly.io is platform and best alternative of Heroku (Salesforce) becuase here you can deploy your apps without adding Credit Card or anyother payment methods, unlike Heroku, they offers you 2,340 running hours per month	while Heroku only provides 550 running hours (dyno hours) to run your app! that means you don't have to worry about suddenly getting your app stopped like in the case of Heroku. Fly.io also not restarts your app each 24 hours which enables you to clone bigger data easily.</b></p>
+<h4><b>1.Create an account on <a href="https://fly.io/app/sign-in">Fly.io</a>.</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/186624984-a8a4e199-3f04-4456-a9a0-47a05e5632ba.png">
+<h4><b>2.Install flyctl on your system</b></h4>
+<p><b><i>MacOS / Linux:</i></b></p>
+<p><b><code>curl -L https://fly.io/install.sh | sh</code></b></p>
+<p><b><i>Using Brew:</i></b></p>
+<p><b><code>brew install flyctl</code></b></p>
+<p><b><i>Windows Powershell:</i></b></p>
+<p><b><code>iwr https://fly.io/install.ps1 -useb | iex</code></b></p>
+<h4><b>3.Download CloneBot_V2 Repository:</b></h4>
+<p><b><code>git clone https://github.com/TheCaduceus/CloneBot_V2</code></b></p>
+<h4><b>4.Now run following commands:</b></h4>
+<p><b>
+i.<code>cd CloneBot_V2</code> - To change directory.</br>
+ii.<code>fly auth login</code> - To login on Fly.io.</br>
+iii.<code>fly launch</code> - To configure basic things, like app name and data center as well as creating `fly.toml`.
+</b></p>
+<h4><b>5.Configure App:</b></h4>
+<p><b>1.For app name keep the field empty (Hit <code>Enter</code>), and for choosing data center! use arrow keys to select one. For attaching Postgres Database enter
+<code>N</code> including for Deploy Now.</b></p>
+<img src="https://user-images.githubusercontent.com/87380104/186633010-ff7ca124-0026-4385-a2d6-d9ccc010b832.png">
+<p><b>2.Once you run the above command! it will automatically create <code>fly.toml</code> file, open the `fly.toml` file with any text editor and under <code>[env]</code> section put your <code>CONFIG_FILE_URL</code> which you created above!</b></p>
+<img src="https://user-images.githubusercontent.com/87380104/186635091-dcc791b7-cd43-44ed-a66a-3d6cec26320d.png">
+<p><b>3.Everything done! now run the final deploy command to deploy your app.</b></p>
+<p><b>iv.<code>fly deploy</code> - To deploy your app.</b></p>
+<h2><b>♦️Deploy on Clever Cloud</b></h2>
 <p><b>Clever Cloud is a Europe-based PaaS (Platform as a Service) company. They help developers deploy and run their apps with bulletproof infrastructure, automatic scaling as well as fair pricing. In my opinion! it is best choice to deploy CloneBot V2 on Clever Cloud because pricing is excellent & fair as well as you can run CloneBot V2 for days to clone large amount of data.</b></p>
 <p><b>⛔NOTICE: Before deploying/running CloneBot V2 on Clever Cloud! Don't forget to add payment method like credit card in your account to verify your account otherwise deploying and using CloneBot V2 on Clever Cloud will cause suspension of your app/account.</b></p>
 <h4><b>1.First log in on <a href="www.clever-cloud.com">Clever Cloud</a>.</b></h4>
