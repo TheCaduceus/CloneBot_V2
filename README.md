@@ -111,6 +111,7 @@ operable program or batch file.</code></b></p>
 	<code>group_ids</code> - Telegram Group IDs of Groups in which CloneBot can be used otherwise keep it <code>-1</code>. Separate them using <code>,</code><br><br>
 	<code>gclone_para_override</code> - Keep it blank if you don't know what it is.
 </b></p>
+<p><b>⛔NOTE: Everything in <code>config.ini</code> should be <code>Int</code>.</b></p>
 <h3><b>📄Getting CONFIG_FILE_URL</b></h3>
 <p><b><code>CONFIG_FILE_URL</code> is URL to <code>config.ini</code> file which contains values of variables discussed above, lets see how to get your <code>CONFIG_FILE_URL</code> easily:</b></p>
 <h4><b>1.First open <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/sample-config.ini"> sample-config.ini file</a> then copy its code.</b></h4>
