@@ -4,12 +4,8 @@ kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
-# You can also set CONFIG_FILE_URL here
-# But it can leak your Bot API Token
-# and it will not get encrypted!
-# Better to set it in GitHub Secrets
 [env]
-#CONFIG_FILE_URL = "URL_HERE"
+CONFIG_FILE_URL = "URL_HERE"
 
 # No need to touch below
 
@@ -27,8 +23,8 @@ processes = []
   protocol = "tcp"
   script_checks = []
   [services.concurrency]
-    hard_limit = 20
-    soft_limit = 25
+    hard_limit = 25
+    soft_limit = 20
     type = "connections"
 
   [[services.ports]]
