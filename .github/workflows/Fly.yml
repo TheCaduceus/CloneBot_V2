@@ -1,0 +1,13 @@
+name: Deploy to Fly
+on: workflow_dispatch
+env:
+  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+  CONFIG_FILE_URL: ${{secrets.CONFIG_FILE_URL}}
+jobs:
+  deploy:
+      name: Deploy to Fly
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - uses: superfly/flyctl-actions/setup-flyctl@master
+        - run: flyctl deploy --remote-only
