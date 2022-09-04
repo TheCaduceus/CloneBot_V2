@@ -178,11 +178,10 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>⛔NOTICE: You can use <code>flyctl</code> instead of <code>fly</code>.</b></p>
 <h4><b>🧿Using GitHub Actions</b></h4>
 <p><b>CloneBot V2 can also be deployed on Fly.io using GitHub Actions, this method is useful if you don't have PC or you can't download <code>flyctl</code> on Termux due to architecture limitations.</b></p>
-<p><b>1.Fork repository and rename <code>fly.toml-sample</code> to <code>fly.toml</code>, now in it! replace <code>APP-NAME</code> with name of your choice.</b></p>
-<img src="https://user-images.githubusercontent.com/87380104/188298349-f6cf1f39-b9bd-412e-beb8-e6ce64ae554e.png">
-<p><b>2.Set following secrets in GitHub Secrets:</b></p>
+<p><b>1.Fork repository and rename <code>fly.toml-sample</code> to <code>fly.toml</code>, now in it! replace <code>APP-NAME</code> with name of your choice as well as enter value of <code>CONFIG_FILE_URL</code>.</b></p>
+<img src="https://user-images.githubusercontent.com/87380104/188308421-d92f8c9a-50a5-4a34-b258-ff32b08a0a55.png">
+<p><b>2.Set following secret in GitHub Secrets:</b></p>
 <p><b><code>FLY_API_TOKEN</code>: Get your Fly API Token from <a href="https://fly.io/user/personal_access_tokens">here</a>.</b></p>
-<p><b><code>CONFIG_FILE_URL</code>: Set your <code>CONFIG_FILE_URL</code> which you made <a href="#getting-config_file_url">here</a>.</b></p>
 <p><b>3.Go to <code>Actions</code> Tab and run <code>Deploy to Fly</code> workflow.</b><p>
 <h2><b>♦️Deploy on Clever Cloud</b></h2>
 <p><b>Clever Cloud is a Europe-based PaaS (Platform as a Service) company. They help developers deploy and run their apps with bulletproof infrastructure, automatic scaling as well as fair pricing. In my opinion! it is best choice to deploy CloneBot V2 on Clever Cloud because pricing is excellent & fair as well as you can run CloneBot V2 for days to clone large amount of data.</b></p>
