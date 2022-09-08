@@ -245,11 +245,11 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>⛔NOTICE: You can use <code>flyctl</code> instead of <code>fly</code>.</b></p>
 <h4><b>🧿Using GitHub Actions</b></h4>
 <p><b>CloneBot V2 can also be deployed on Fly.io using GitHub Actions, this method is useful if you don't have PC or you can't download <code>flyctl</code> on Termux due to architecture limitations.</b></p>
-<p><b>1.Fork repository and rename <code>fly.toml-sample</code> to <code>fly.toml</code>, now in it! replace <code>APP-NAME</code> with name of your choice as well as enter value of <code>CONFIG_FILE_URL</code>.</b></p>
-<img src="https://user-images.githubusercontent.com/87380104/188308421-d92f8c9a-50a5-4a34-b258-ff32b08a0a55.png">
-<p><b>2.Set following secret in GitHub Secrets:</b></p>
+<p><b>1.Set following secret in GitHub Secrets:</b></p>
 <p><b><code>FLY_API_TOKEN</code>: Get your Fly API Token from <a href="https://fly.io/user/personal_access_tokens">here</a>.</b></p>
-<p><b>3.Go to <code>Actions</code> Tab and run <code>Deploy to Fly</code> workflow.</b><p>
+<p><b><code>APP_NAME</code>: Fly App name of your choice </b></p>
+<p><b><code>CONFIG_FILE_URL</code>: <code>CONFIG_FILE_URL</code> created above</b></p>
+<p><b>2.Go to <code>Actions</code> Tab and run <code>Deploy to Fly</code> workflow.</b><p>
 <h2><b>♦️Deploy on Clever Cloud</b></h2>
 <p><b>Clever Cloud is a Europe-based PaaS (Platform as a Service) company. They help developers deploy and run their apps with bulletproof infrastructure, automatic scaling as well as fair pricing. In my opinion! it is best choice to deploy CloneBot V2 on Clever Cloud because pricing is excellent & fair as well as you can run CloneBot V2 for days to clone large amount of data.</b></p>
 <p><b>⛔NOTICE: Before deploying/running CloneBot V2 on Clever Cloud! Don't forget to add payment method like credit card in your account to verify your account otherwise deploying and using CloneBot V2 on Clever Cloud will cause suspension of your app/account.</b></p>
@@ -447,7 +447,6 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 	<a href="https://github.com/tiararosebiezetta">Katarina</a>: For adding the ability to be deployed to Clever Cloud and Scalingo.<br>
 	<a href="https://github.com/missemily2022">Miss Emily</a>: For adding Support of Okteto Cloud Deployment as well as improving little layout.
 </b></p>
-<!--- End of File --->
 
       <footer class="site-footer">
         
@@ -456,3 +455,4 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
     </main>
   </body>
 </html>
+<!--- End of File --->
