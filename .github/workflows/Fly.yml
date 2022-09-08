@@ -8,6 +8,9 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v2
+        - run: |
+            sed -i 's#URL_HERE#${{secrets.CONFIG_FILE_URL}}#' fly.toml
+            sed -i 's#APP-NAME#${{secrets.APP_NAME}}#' fly.toml
         - uses: superfly/flyctl-actions/setup-flyctl@master
         - run: flyctl launch --generate-name --copy-config --region lax --no-deploy
         - run: flyctl deploy --remote-only
