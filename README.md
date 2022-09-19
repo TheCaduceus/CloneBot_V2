@@ -116,7 +116,7 @@ operable program or batch file.</code></b></p>
 <p><b><code>CONFIG_FILE_URL</code> is URL to <code>config.ini</code> file which contains values of variables discussed above, lets see how to get your <code>CONFIG_FILE_URL</code> easily:</b></p>
 <h4><b>1.First open <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/sample-config.ini"> sample-config.ini file</a> then copy its code.</b></h4>
 <img src="Img/32.png" alt="32">
-<h4><b>2.Either send your config.ini to <a href="https://t.me/drfilestreambot">FileStreamBot</a> to get instant stream link or open <a href="https://gist.github.com" alt="GitHub Gist">GitHub Gist</a> and create a new gist and paste the code you just copied and name it as <code>config.ini</code> and now fill below values carefully:</b></h4>
+<h4><b>2.Either send your <code>config.ini</code> to <a href="https://t.me/drfilestreambot">FileStreamBot</a> to get instant stream link or open <a href="https://gist.github.com" alt="GitHub Gist">GitHub Gist</a> and create a new gist and paste the code you just copied and name it as <code>config.ini</code> and now fill below values carefully:</b></h4>
 <p><b>
     <code>path_to_gclone</code> - Keep it as <code>gclone</code>.<br><br>
     <code>telegram_token</code> - Enter Telegram Bot Token, get it from <a href="https://t.me/BotFather">@BotFather</a>.<br><br>
