@@ -12,23 +12,26 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-whats-new">🆕 What's New!</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-notice">⛔ NOTICE</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-how-to-use">⚙️ How to use?</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Commands.md">->🔩Commands for BotFather</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Commands.md">➥🔩Commands for BotFather</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#making-shared-drive">🫙 Making Shared Drive</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#using-website">->🌐Using Website</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#using-telegram-bot">->🤖Using Telegram Bot</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#using-website">➥🌐Using Website</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#using-telegram-bot">➥🤖Using Telegram Bot</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#python-with-pip-installation">🐍Python with PIP Installation</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeployment">🕹️Deployment</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">->📄Getting CONFIG_FILE_URL</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#build-or-deploy-using-docker">->🐳Build or Deploy using Docker</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeploy-on-fly">->🕊️Deploy on Fly</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeploy-on-clever-cloud">->♦️Deploy on Clever Cloud</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-okteto">->🪬Deploy on Okteto</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-deploy-on-vps-or-pc">->🖥️ Deploy on VPS or PC</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-termux">->📱Deploy on Termux</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-scalingo">->🎲Deploy on Scalingo</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">➥📎Getting CONFIG_FILE_URL</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#using-drgraph">-->📃Using Dr.Graph</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#using-file-stream-bot">-->🤖Using File Stream Bot</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fusing-github-gist">-->✏️Using GitHub Gist</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#build-or-deploy-using-docker">➥🐳Build or Deploy using Docker</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeploy-on-fly">➥🕊️Deploy on Fly</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeploy-on-clever-cloud">➥♦️Deploy on Clever Cloud</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-okteto">➥🪬Deploy on Okteto</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-deploy-on-vps-or-pc">➥🖥️ Deploy on VPS or PC</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-termux">➥📱Deploy on Termux</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#deploy-on-scalingo">➥🎲Deploy on Scalingo</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-service-accounts">🪪 Service Accounts</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">->🛠️ Create Service Accounts</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">->🌐 Adding in Google Group</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">➥🛠️ Create Service Accounts</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">➥🌐 Adding in Google Group</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#contact-us">⛑Contact Us!</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fcredits--thanks">❤️Credits & Thanks</a></b></p>
 <!---ChangeLog--->
@@ -112,30 +115,34 @@ operable program or batch file.</code></b></p>
 	<code>gclone_para_override</code> - Keep it blank if you don't know what it is.
 </b></p>
 <p><b>⛔NOTE: Everything in <code>config.ini</code> should be <code>Int</code>.</b></p>
-<h3><b>📄Getting CONFIG_FILE_URL</b></h3>
+<h3><b>📎Getting CONFIG_FILE_URL</b></h3>
 <p><b><code>CONFIG_FILE_URL</code> is URL to <code>config.ini</code> file which contains values of variables discussed above, lets see how to get your <code>CONFIG_FILE_URL</code> easily:</b></p>
-<h4><b>1.First open <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/sample-config.ini"> sample-config.ini file</a> then copy its code.</b></h4>
+<h4><b>0.First open <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/sample-config.ini"> sample-config.ini file</a> then copy its code.</b></h4>
 <img src="Img/32.png" alt="32">
-<h4><b>2.Either send your <code>config.ini</code> to <a href="https://t.me/drfilestreambot">FileStreamBot</a> to get instant stream link or open <a href="https://gist.github.com" alt="GitHub Gist">GitHub Gist</a> and create a new gist and paste the code you just copied and name it as <code>config.ini</code> and now fill below values carefully:</b></h4>
-<p><b>
-    <code>path_to_gclone</code> - Keep it as <code>gclone</code>.<br><br>
-    <code>telegram_token</code> - Enter Telegram Bot Token, get it from <a href="https://t.me/BotFather">@BotFather</a>.<br><br>
-    <code>user_ids</code> - Enter User IDs, which you want to allow your CloneBot V2. Separate IDs by <code>,</code> and first ID is Admin.<br><br>
-    <code>group_ids</code> - Enter Group IDs, in which you want to allow your CloneBot V2 to be used otherwise keep it <code>-1</code>. Separate IDs by <code>,</code><br><br>
-    <code>gclone_para_override</code> - Keep it blank if you don't know what it is.
-</b></p>
+<h3><b>📃Using Dr.Graph:</b></h3>
+<h4><b>1.Open <a href="https://drgraph.cf/">Dr.Graph</a>, enable <code>Code</code> as well as <code>Raw</code> option then paste the variables discussed above!</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/191306051-931e2e02-4c01-4d38-b99d-50f7969cf447.png">
+<h4><b>2.You can use Custom URL to make the final output link memorable and then press Save button as shown in the image given above.</b></h4>
+<h4><b>3.It will open the new tab! just press the <code>View Raw</code> button and copy the URL from address bar which you will get after pressing it.</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/191307525-0562c949-f72a-415c-99c1-013d6a9e46a8.png">
+<h3><b>🤖Using File Stream Bot</b></h3>
+<h4><b>1.Open <a href="https://t.me/drfilestreambot">File Stream Bot</a> on Telegram and save the above discussed values in <code>config.ini</code> file and send that file to the bot and get permanent working link.</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/191310830-8600677c-03ad-4d00-9b70-ae904a8b14dd.png">
+<h4><b>2.Your <code>CONFIG_FILE_URL</code> is now ready to be used.</b></h4>
+<h3><b>✏️Using GitHub Gist:</b></h4>
+<h4><b>1.Open <a href="https://gist.github.com" alt="GitHub Gist">GitHub Gist</a> and create a new gist and paste the code you copied above and name it as <code>config.ini</code> and now fill below values as discussed above!</b></h4>
 <img src="Img/33.png" alt="33">
-<h4><b>3.Then press <code>Create Secret Gist</code> then click <code>Raw</code>, it will open a New Tab in your Browser. Just copy the URL of that New Tab</b></h4>
+<h4><b>2.Then press <code>Create Secret Gist</code> then click <code>Raw</code>, it will open a New Tab in your Browser. Just copy the URL of that New Tab</b></h4>
 <img src="Img/34.png" alt="34">
 <img src="Img/35.png" alt="35">
-<h4><b>4.Once you copied the URL! then remove <code>Commit_ID</code> from the URL:</b></h4>
+<h4><b>3.Once you copied the URL! then remove <code>Commit_ID</code> from the URL:</b></h4>
 <p><b>Before:<br>
 https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/<code>Commit_ID</code>/config.ini<br>
 After:<br>
 https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.ini
 </b></p>
 <!---Docker--->
-<h3><b>🐳Build or Deploy using Docker</b></h3>
+<h2><b>🐳Build or Deploy using Docker</b></h2>
 <p><b>CloneBot V2 can be deployed almost everywhere using Docker, either you can create your own Docker Image using Build Tool provided in the Workflow including <code>Docker-Code</code>. While CloneBot V2 also have ready to use Docker image for systems based on <code>AMD 64</code>.</b></p>
 <h4><b>1.To pull CloneBot V2 Docker Image:</h4>
 <p><b>-><code>docker pull ghcr.io/thecaduceus/clonebot-v2:main</code></b></p>
