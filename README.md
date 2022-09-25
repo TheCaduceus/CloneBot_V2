@@ -34,6 +34,7 @@
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#-adding-in-google-group">➥🌐 Adding in Google Group</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#contact-us">⛑Contact Us!</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fcredits--thanks">❤️Credits & Thanks</a></b></p>
+<p><b><a href"https://github.com/TheCaduceus/CloneBot_V2#other-projects"></a>🍵Other Projects</b></p>
 <!---ChangeLog--->
 <h2><b>🆕 What's New!</b></h2>
 <p><b>1.Gclone upgraded to v1.59.1 (latest)!😉</b></p>
@@ -387,4 +388,8 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 	<a href="https://github.com/tiararosebiezetta">Katarina</a>: For adding the ability to be deployed to Clever Cloud and Scalingo.<br>
 	<a href="https://github.com/missemily2022">Miss Emily</a>: For adding Support of Okteto Cloud Deployment as well as improving little layout.
 </b></p>
+
+## 🍵Other Projects
+- **<a href="https://drgraph.cf/">Dr.Graph</a>: Online Anonymous Text / Pasting platform without limits.**
+- **<a href="https://drfilestreambot.t.me/">Dr.FileStreamBot</a>: Get Download / Stream links for Telegram files and use as host.**
 <!--- End of File --->
