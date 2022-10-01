@@ -194,7 +194,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h2><b>♦️Deploy on Clever Cloud</b></h2>
 <p><b>Clever Cloud is a Europe-based PaaS (Platform as a Service) company. They help developers deploy and run their apps with bulletproof infrastructure, automatic scaling as well as fair pricing. In my opinion! it is best choice to deploy CloneBot V2 on Clever Cloud because pricing is excellent & fair as well as you can run CloneBot V2 for days to clone large amount of data.</b></p>
 <p><b>⛔NOTICE: Before deploying/running CloneBot V2 on Clever Cloud! Don't forget to add payment method like credit card in your account to verify your account otherwise deploying and using CloneBot V2 on Clever Cloud will cause suspension of your app/account.</b></p>
-<h4><b>1.First log in on <a href="www.clever-cloud.com">Clever Cloud</a>.</b></h4>
+<h4><b>1.First log in on <a href="https://www.clever-cloud.com">Clever Cloud</a>.</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/184601649-db7a14f5-9eb0-4da8-8709-32f58a339c09.png">
 <h4><b>2.Now click on <code>Create</code> and then select <code>an application</code> from the list.</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/184602348-3165036a-bb54-47b1-8ec2-7a3e019c9333.png">
