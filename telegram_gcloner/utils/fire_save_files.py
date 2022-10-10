@@ -153,7 +153,7 @@ class MySaveFileThread(threading.Thread):
                         progress_checked_files = int(match_checked_files.group(1))
                         progress_total_check_files = int(match_checked_files.group(2))
                     progress_max_percentage_10 = max(progress_size_percentage_10, progress_file_percentage_10)
-                    message_progress = '├──────⌈ Made with Love by Dr.Caduceus & MsGsuite⌋──────' \
+                    message_progress = '├──────⌈ Progress Details⌋──────' \
                                        '├ 🗂 Source : <a href="https://drive.google.com/open?id={}">{}</a>\n│\n' \
                                        '├ ✔️ Checks： <code>{} / {}</code>\n' \
                                        '├ 📥 Transfers： <code>{} / {}</code>\n' \
