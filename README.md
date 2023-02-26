@@ -243,7 +243,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h4><b>2.Download Repository:</b></h4>
 <p><b>
 	-><code>git clone https://github.com/TheCaduceus/CloneBot_V2</code><br>
-	->Or Download from <a href="https://drfilestreambot.cf/AgADJA4573">Here</a>
+	->Or Download from <a href="">Here</a>
 </b></p>
 <h4><b>3.Install CloneBot_V2 Requirements:</b></h4>
 <p><b>
@@ -252,7 +252,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 </b></p>
 <h4><b>4.Download Gclone:</b></h4>
 <p><b>
-	->Go to <a href="https://clonebot.tk/0:/">Gclone Library</a> and download Gclone file as per your Operating System and place it in "telegram_gcloner" folder.<br>
+	->Go to <a href="">Gclone Library</a> and download Gclone file as per your Operating System and place it in "telegram_gcloner" folder.<br>
 	->Website provides direct download link, so you can also use Command-line to download Gclone.<br>
 	Linux:<br>
 	-><code>curl download_link_here >> telegram_gcloner/gclone</code><br>
@@ -318,7 +318,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>⛔NOTE: Download json file as <code>credentials.json</code> only!</b></p>
 <img src="Img/18.png" alt="18">
 <img src="Img/19.png" alt="19">
-<h4><b>12.Once downloaded, now download some required python scripts <a href="https://drfilestreambot.cf/AgADHw4531">from here</a> and extract it. Then move <code>gen_sa_accounts.py</code> <code>rename_script.py</code> as well as <code>requirements.txt</code> files to folder in which you downloaded <code>credentials.json</code>.</b></h4>
+<h4><b>12.Once installed, now download some required python scripts <a href="http://cdn.thecaduceus.eu.org/SA/SA%20-%20Auth%202.0.zip">from here</a> and extract it. Then move <code>gen_sa_accounts.py</code> <code>rename_script.py</code> as well as <code>requirements.txt</code> files to folder in which you downloaded <code>credentials.json</code>.</b></h4>
 <img src="Img/20.png" alt="20">
 <h4><b>13.Before we proceed further, please confirm you have installed Python (with pip) carefully. Not downloaded yet?<a href="https://www.python.org/downloads/" alt="Download Python"> Download Now!</a></b></h4>
 <h4><b>14.All Ready? Type "cmd" in the address bar of folder which you created in STEP 11 and hit ENTER or as an alternative of this, you can use <code>cd</code> command like <code>cd FOLDER_PATH</code> in CMD.</b></h4>
